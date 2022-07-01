@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="60" viewBox="0 0 64 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_168" data-name="Rectangle 168" width="64" height="60" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon-dwrean-ipiresies" transform="translate(0 0)">
+    <g id="Group_283" data-name="Group 283" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Rectangle_167" data-name="Rectangle 167" d="M4-1H57.091a5.006,5.006,0,0,1,5,5V36.665a5.006,5.006,0,0,1-5,5H4a5.006,5.006,0,0,1-5-5V4A5.006,5.006,0,0,1,4-1ZM57.091,39.665a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H4A3,3,0,0,0,1,4V36.665a3,3,0,0,0,3,3Z" transform="translate(1.455 1.452)" fill="#fff"/>
+      <path id="Path_323" data-name="Path 323" d="M56.273,44.932H6.818a6.809,6.809,0,1,1,0-13.619H56.273a6.809,6.809,0,1,1,0,13.619ZM6.818,33.313a4.809,4.809,0,1,0,0,9.619H56.273a4.809,4.809,0,1,0,0-9.619Z" transform="translate(0.455 14.616)" fill="#fff"/>
+      <path id="Line_44" data-name="Line 44" d="M39.174.5H0v-1H39.174Z" transform="translate(10.231 52.738)" fill="#fff"/>
+      <path id="Line_45" data-name="Line 45" d="M1.455.5H0v-1H1.455Z" transform="translate(52.314 52.738)" fill="#fff"/>
+      <path id="Path_324" data-name="Path 324" d="M28.871,27.069l-1.535-1.282,6.738-8.073L27.335,9.641l1.535-1.282,7.808,9.355Z" transform="translate(12.774 4.071)" fill="#fff"/>
+      <path id="Path_325" data-name="Path 325" d="M17.4,27.069,9.595,17.714,17.4,8.359l1.535,1.282L12.2,17.714l6.738,8.073Z" transform="translate(4.953 4.071)" fill="#fff"/>
+      <path id="Line_46" data-name="Line 46" d="M.894,23.685l-1.788-.9L10.742-.448l1.788.9Z" transform="translate(26.182 10.166)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

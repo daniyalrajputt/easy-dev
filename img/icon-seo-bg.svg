@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="icon-seo-bg" transform="translate(0 -44)">
+    <g id="bg" transform="translate(0 44)" fill="none" stroke="#fff" stroke-width="2" opacity="0">
+      <circle cx="46" cy="46" r="46" stroke="none"/>
+      <circle cx="46" cy="46" r="45" fill="none"/>
+    </g>
+    <g id="icon-seo" transform="translate(0 59.75)">
+      <g id="Group_15341" data-name="Group 15341">
+        <path id="Path_17066" data-name="Path 17066" d="M10.691,25.727a.5.5,0,0,1-.5-.5A20.849,20.849,0,0,1,31.057,4.361a.5.5,0,0,1,0,1A19.849,19.849,0,0,0,11.191,25.227.5.5,0,0,1,10.691,25.727Z" transform="translate(2.117 0.963)" fill="#fff"/>
+        <path id="Ellipse_23" data-name="Ellipse 23" d="M24.992-1A26,26,0,0,1,35.109,48.941a26,26,0,0,1-20.235-47.9A25.83,25.83,0,0,1,24.992-1Zm0,49.984a24,24,0,0,0,9.338-46.1A24,24,0,0,0,15.653,47.1,23.841,23.841,0,0,0,24.992,48.984Z" transform="translate(8.183 1.198)" fill="#fff"/>
+        <path id="Line_84" data-name="Line 84" d="M0,15.376a1,1,0,0,1-.707-.293,1,1,0,0,1,0-1.414L13.669-.707a1,1,0,0,1,1.414,0,1,1,0,0,1,0,1.414L.707,15.083A1,1,0,0,1,0,15.376Z" transform="translate(1.198 44.926)" fill="#fff"/>
+        <path id="Line_85" data-name="Line 85" d="M17.291,1H0V-1H17.291Z" transform="translate(27.054 19.787)" fill="#fff"/>
+        <path id="Line_86" data-name="Line 86" d="M2.648,1H0V-1H2.648Z" transform="translate(22.004 19.787)" fill="#fff"/>
+        <path id="Line_87" data-name="Line 87" d="M17.291,1H0V-1H17.291Z" transform="translate(27.054 26.19)" fill="#fff"/>
+        <path id="Line_88" data-name="Line 88" d="M2.648,1H0V-1H2.648Z" transform="translate(22.004 26.19)" fill="#fff"/>
+        <path id="Line_89" data-name="Line 89" d="M17.291,1H0V-1H17.291Z" transform="translate(27.054 32.592)" fill="#fff"/>
+        <path id="Line_90" data-name="Line 90" d="M2.648,1H0V-1H2.648Z" transform="translate(22.004 32.592)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

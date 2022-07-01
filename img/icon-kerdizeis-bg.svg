@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="icon-kerdizeis-bg" transform="translate(364.44 18.5)">
+    <path id="bg" d="M1,1H91V91H1ZM0,92H92V0H0Z" transform="translate(-364.44 -18.5)" fill="#e6e6e6" opacity="0"/>
+    <g id="icon-kerdizeis" transform="translate(-350.91 -4.971)">
+      <path id="Path_17088" data-name="Path 17088" d="M29.295,42.487a13.845,13.845,0,1,1,9.79-23.635l-.707.707a12.845,12.845,0,1,0,0,18.166l.707.707A13.754,13.754,0,0,1,29.295,42.487Z" transform="translate(3.991 3.827)" fill="#5492ce"/>
+      <path id="Path_17089" data-name="Path 17089" d="M29.295,42.987A14.345,14.345,0,1,1,39.438,18.5l-1.414,1.414a12.345,12.345,0,1,0,0,17.459l1.414,1.414A14.251,14.251,0,0,1,29.295,42.987Z" transform="translate(3.991 3.827)" fill="#5492ce"/>
+      <path id="Line_102" data-name="Line 102" d="M20.5.5H0v-1H20.5Z" transform="translate(14.178 29.437)" fill="#5492ce"/>
+      <path id="Line_103" data-name="Line 103" d="M20.5,1H0V-1H20.5Z" transform="translate(14.178 29.437)" fill="#5492ce"/>
+      <path id="Line_104" data-name="Line 104" d="M20.5.5H0v-1H20.5Z" transform="translate(14.178 36.413)" fill="#5492ce"/>
+      <path id="Line_105" data-name="Line 105" d="M20.5,1H0V-1H20.5Z" transform="translate(14.178 36.413)" fill="#5492ce"/>
+      <path id="Ellipse_27" data-name="Ellipse 27" d="M25-.5a25.51,25.51,0,0,1,9.927,49,25.51,25.51,0,0,1-19.855-47A25.345,25.345,0,0,1,25-.5Zm0,50.008A24.51,24.51,0,0,0,34.542,2.425,24.51,24.51,0,0,0,15.466,47.582,24.35,24.35,0,0,0,25,49.508Z" transform="translate(7.466 7.466)" fill="#5492ce"/>
+      <path id="Ellipse_28" data-name="Ellipse 28" d="M31.22-1A32.228,32.228,0,0,1,43.762,60.907,32.228,32.228,0,0,1,18.678,1.532,32.019,32.019,0,0,1,31.22-1Zm0,62.44A30.228,30.228,0,0,0,42.982,3.374,30.228,30.228,0,0,0,19.457,59.065,30.03,30.03,0,0,0,31.22,61.44Z" transform="translate(1.25 1.25)" fill="#5492ce"/>
+      <path id="Line_106" data-name="Line 106" d="M6.251.5H0v-1H6.251Z" transform="translate(57.934 32.352)" fill="#5492ce"/>
+      <path id="Line_107" data-name="Line 107" d="M.5,6.251h-1V0h1Z" transform="translate(33.012 1.215)" fill="#5492ce"/>
+      <path id="Line_108" data-name="Line 108" d="M.5,6.251h-1V0h1Z" transform="translate(33.012 57.474)" fill="#5492ce"/>
+      <path id="Line_109" data-name="Line 109" d="M1.164,6.17-.482.132.482-.132,2.129,5.907Z" transform="translate(24.782 2.28)" fill="#5492ce"/>
+      <path id="Line_110" data-name="Line 110" d="M1.164,6.17-.482.132.482-.132,2.129,5.907Z" transform="translate(39.595 56.622)" fill="#5492ce"/>
+      <path id="Line_111" data-name="Line 111" d="M2.748,5.667-.431.253.431-.253,3.61,5.16Z" transform="translate(17.114 5.402)" fill="#5492ce"/>
+      <path id="Line_112" data-name="Line 112" d="M2.748,5.667-.431.253.431-.253,3.61,5.16Z" transform="translate(45.73 54.124)" fill="#5492ce"/>
+      <path id="Line_113" data-name="Line 113" d="M4.146,4.777-.351.357l.7-.713,4.5,4.421Z" transform="translate(10.528 10.369)" fill="#5492ce"/>
+      <path id="Line_114" data-name="Line 114" d="M4.146,4.777-.351.357l.7-.713,4.5,4.421Z" transform="translate(50.999 50.15)" fill="#5492ce"/>
+      <path id="Line_115" data-name="Line 115" d="M5.26,3.56-.247.435l.494-.87L5.754,2.691Z" transform="translate(5.475 16.843)" fill="#5492ce"/>
+      <path id="Line_116" data-name="Line 116" d="M5.26,3.56-.247.435l.494-.87L5.754,2.691Z" transform="translate(55.041 44.972)" fill="#5492ce"/>
+      <path id="Line_117" data-name="Line 117" d="M6.015,2.1-.127.484.127-.484,6.27,1.134Z" transform="translate(2.299 24.381)" fill="#5492ce"/>
+      <path id="Line_118" data-name="Line 118" d="M6.015,2.1-.127.484.127-.484,6.27,1.134Z" transform="translate(57.582 38.941)" fill="#5492ce"/>
+      <path id="Line_119" data-name="Line 119" d="M6.36.5H0v-1H6.36Z" transform="translate(1.215 32.47)" fill="#5492ce"/>
+      <path id="Line_120" data-name="Line 120" d="M.127,2.1l-.255-.967L6.015-.484,6.27.484Z" transform="translate(2.299 38.942)" fill="#5492ce"/>
+      <path id="Line_121" data-name="Line 121" d="M.127,2.1l-.255-.967L6.015-.484,6.27.484Z" transform="translate(57.582 24.381)" fill="#5492ce"/>
+      <path id="Line_122" data-name="Line 122" d="M.247,3.56l-.494-.87L5.26-.435l.494.87Z" transform="translate(5.475 44.972)" fill="#5492ce"/>
+      <path id="Line_123" data-name="Line 123" d="M.247,3.56l-.494-.87L5.26-.435l.494.87Z" transform="translate(55.041 16.843)" fill="#5492ce"/>
+      <path id="Line_124" data-name="Line 124" d="M.351,4.777l-.7-.713,4.5-4.421.7.713Z" transform="translate(10.528 50.15)" fill="#5492ce"/>
+      <path id="Line_125" data-name="Line 125" d="M.351,4.777l-.7-.713,4.5-4.421.7.713Z" transform="translate(50.999 10.369)" fill="#5492ce"/>
+      <path id="Line_126" data-name="Line 126" d="M.431,5.667-.431,5.16,2.748-.253,3.61.253Z" transform="translate(17.114 54.124)" fill="#5492ce"/>
+      <path id="Line_127" data-name="Line 127" d="M.431,5.667-.431,5.16,2.748-.253,3.61.253Z" transform="translate(45.73 5.403)" fill="#5492ce"/>
+      <path id="Line_128" data-name="Line 128" d="M.482,6.17l-.965-.263L1.164-.132l.965.263Z" transform="translate(24.782 56.621)" fill="#5492ce"/>
+      <path id="Line_129" data-name="Line 129" d="M.482,6.17l-.965-.263L1.164-.132l.965.263Z" transform="translate(39.595 2.28)" fill="#5492ce"/>
+    </g>
+  </g>
+</svg>
