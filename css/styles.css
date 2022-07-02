@@ -1608,7 +1608,15 @@ footer a {
 .mx-auto {
   margin: 0 auto;
 }
-
+.ttu {
+  text-transform: uppercase;
+}
+.ttc {
+  text-transform: capitalize;
+}
+.ttl {
+  text-transform: lowercase;
+}
 /*-----------------------------------------------
   Media quesry 
 ------------------------------------------------*/

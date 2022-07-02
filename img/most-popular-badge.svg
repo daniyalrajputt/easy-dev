@@ -1,0 +1,14 @@
+<svg id="most_popular-badge" data-name="most popular-badge" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="53" viewBox="0 0 90 53">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_294" data-name="Rectangle 294" width="90" height="53" transform="translate(352 26.593)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(-352 -26.593)" clip-path="url(#clip-path)">
+    <g id="Group_553" data-name="Group 553" transform="translate(-579 -3.407)">
+      <path id="Path_470" data-name="Path 470" d="M592.461,134.583h-23.34a7.373,7.373,0,0,1-7.369-7.395V66.525a7.4,7.4,0,0,0-7.394-7.395h-19.33a7.4,7.4,0,0,1-7.4-7.395V26.66a7.4,7.4,0,0,1,7.4-7.395h19.33a7.4,7.4,0,0,1,7.394,7.395V51.749a7.4,7.4,0,0,0,7.4,7.395h23.342a7.4,7.4,0,0,1,7.394,7.395v60.65A7.435,7.435,0,0,1,592.461,134.583Z" transform="translate(1073.299 -524.226) rotate(90)" fill="#f44044"/>
+      <text id="MOST_POPULAR" data-name="MOST
+POPULAR" transform="translate(976 53)" fill="#fff" font-size="14" font-family="Source Code Pro" font-weight="500"><tspan x="-16" y="0">MOST</tspan><tspan x="-29" y="14">POPULAR</tspan></text>
+    </g>
+  </g>
+</svg>
