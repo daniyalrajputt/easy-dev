@@ -1,3 +1,152 @@
+:root {
+  --color-white: #ffffff;
+  --color-primary: #00009f;
+  --color-secondary: #5492ce;
+  --color-aqua: #00b2a9;
+  --color-aqualt: #00a79e;
+  --color-blue: #3b93d2;
+  --color-orange: #f44044;
+  --color-pink: #d92a92;
+  --color-gray: #8e8e8e;
+}
 .audio-section {
   background: linear-gradient(180deg, #00a79e 0%, #00009f 100%);
+}
+.audio_packages .easy-cont {
+  margin-top: -10rem;
+}
+.toggle-btn,
+.toggler {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 5px;
+}
+.toggler {
+  color: var(--color-white);
+  transition: 0.2s;
+  font-weight: bold;
+  opacity: 0.6;
+}
+.toggler--is-active {
+  opacity: 1;
+}
+.b {
+  display: block;
+}
+.toggle-btn {
+  position: relative;
+  width: 50px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: var(--color-aqua);
+  overflow: hidden;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+.input-check {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 6;
+}
+.input-check:checked ~ .switch {
+  right: 2px;
+  left: 50.5%;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: 0.08s, 0s;
+}
+.b.switch {
+  position: absolute;
+  left: 2px;
+  top: 4px;
+  bottom: 4px;
+  right: 50.5%;
+  background-color: #fff;
+  border-radius: 50px;
+  z-index: 1;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: 0s, 0.08s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hide {
+  display: none;
+}
+.select-box {
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.select-box label {
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-white);
+}
+.select-list {
+  height: 50px;
+  border-radius: 5px;
+  border: 0;
+  width: 220px;
+  padding: 1rem;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: var(--color-white) url(../img/icon-dropdown.svg) 95% center/16px
+    no-repeat;
+}
+.audio_packages .keen-slider__slide {
+  background: var(--color-white);
+  border: 2px solid var(--color-aqua);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.audio_packages .hosting-title {
+  height: auto;
+}
+.audio_packages .hosting-title-price {
+  margin-bottom: 0;
+}
+.audio_packages .hosting-title-price {
+  margin-bottom: 0;
+}
+.audio_packages .hosting-sale-tag {
+  color: var(--color-orange);
+  font-size: 23px;
+  line-height: 1;
+}
+.audio_packages .hosting-sale-tag del {
+  color: var(--color-gray);
+  font-size: 19px;
+  margin-right: 0.75rem;
+}
+.audio_packages .hosting-cont select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: var(--color-white) url(../img/icon-dropdown.svg) 95% center/16px
+    no-repeat;
+  border: 2px solid var(--color-primary);
+  border-left: 0;
+  border-right: 0;
+  font-size: 16px;
+  line-height: 1;
+  height: 40px;
+  width: 270px;
+  border-radius: 0;
+  outline: none;
+  color: var(--color-primary);
+  font-weight: 500;
+  margin: 0 0 1rem;
 }
