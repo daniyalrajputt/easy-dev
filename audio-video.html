@@ -386,7 +386,7 @@
    <section class="section audio-section clr-white">
       <div class="easy-cont">
          <div class="row">
-            <div class="col-6 col-lg mt-5">
+            <div class="col-md-12 col-lg-6 mt-5">
                <h1 class="fs-53 mb-1">AUDIO & VIDEO <br> STREAMING</h1>
                <h2 class="fs-32 mb-1">Multimedia Packets</h2>
                <p class="fs-20 mb-1 font-source-sans">
@@ -395,8 +395,8 @@
                   <br> μοναδικά χαρακτηριστικά…
                </p>
             </div>
-            <div class="col-6 col-lg">
-               <figure><img src="img/illustration-audio-video.svg" alt=""></figure>
+            <div class="col-md-12 col-lg-6">
+               <figure class="m-0"><img src="img/illustration-audio-video.svg" alt="" class="img-fluid"></figure>
             </div>
          </div>
       </div>
@@ -429,7 +429,7 @@
             <div class="col-12">
                <div id="audio-table" class="wrapper-full">
                   <div class="slider-wrapper">
-                     <div id="audio_pakages" class="keen-slider">
+                     <div id="audio_pakages" class="pakages_slider keen-slider">
                         <div class="keen-slider__slide">
                            <div class="hosting-cont">
                               <h3 class="hosting-title">BASIC</h3>
@@ -451,6 +451,28 @@
                               </div>
                            </div>
                         </div>
+                        <div class="keen-slider__slide">
+                           <div class="hosting-cont">
+                              <h3 class="hosting-title">BASIC</h3>
+                              <h3 class="hosting-title-price">€8,39/month</h3>
+                              <h3 class="hosting-sale-tag"><del>€11,99</del> -50%</h3>
+                              <p class="hosting-description">Total €201,26</p>
+                              <ul class="ht-bullet-li mb-1_5">
+                                 <li>400MB SSD</li>
+                                 <li>1 Site</li>
+                                 <li>1 Email</li>
+                                 <li>No MySQL</li>
+                              </ul>
+                              <select name="" id="">
+                                 <option value="" selected>Επιπλέον επιλογές</option>
+                                 <option value="">Επιπλέον επιλογές</option>
+                              </select>
+                              <div class="tc">
+                                 <a href="" class="bt-arrow bt-arrow-aqua">ΑΓΟΡΑΣΕ ΤΟ</a>
+                              </div>
+                           </div>
+                        </div>
+
                         <div class="keen-slider__slide">
                            <div class="hosting-cont">
                               <img src="img/most-popular-badge.svg" class="pop-badge" alt="">
@@ -522,7 +544,7 @@
                </div>
                <div id="video-table" class="wrapper-full hide">
                   <div class="slider-wrapper">
-                     <div id="video_pakages" class="keen-slider">
+                     <div id="video_pakages" class="pakages_slider keen-slider">
                         <div class="keen-slider__slide">
                            <div class="hosting-cont">
                               <h3 class="hosting-title">BASIC</h3>
@@ -1035,12 +1057,13 @@
 
 
       (function() {
-         //Keen slider for Audio Packages carousal 
-         var slider = new KeenSlider("#audio_pakages", {
+
+         //Keen slider for hosting carousal 
+         var slider = new KeenSlider(".pakages_slider", {
             breakpoints: {
                "(min-width: 600px)": {
                   slides: {
-                     perView: 3,
+                     perView: 2,
                      spacing: 5
                   },
                },
@@ -1055,28 +1078,6 @@
                perView: 1
             },
          });
-
-         //Keen slider for Video Packages carousal 
-         var slider = new KeenSlider("#video_pakages", {
-            breakpoints: {
-               "(min-width: 600px)": {
-                  slides: {
-                     perView: 3,
-                     spacing: 5
-                  },
-               },
-               "(min-width: 1000px)": {
-                  slides: {
-                     perView: 4,
-                     spacing: 3
-                  },
-               },
-            },
-            slides: {
-               perView: 1
-            },
-         });
-
 
          $(document).on('click', '.ht-arrow-left', function() {
             slider.prev();
@@ -1084,8 +1085,7 @@
          $(document).on('click', '.ht-arrow-right', function() {
             slider.next();
          });
-
-      });
+      })();
 
       var e = document.getElementById("filt-audio"),
          d = document.getElementById("filt-video"),
