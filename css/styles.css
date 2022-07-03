@@ -164,6 +164,8 @@ h6 {
 
   .sticky-header .header {
     border-bottom: none !important;
+    width: 1599px;
+    margin: 0 auto;
   }
 }
 
