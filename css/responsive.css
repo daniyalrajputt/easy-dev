@@ -1,4 +1,10 @@
 @media (max-width: 1249px) {
+
+    .audio_packages .ht-arrow-left,
+    .audio_packages .ht-arrow-right {
+        display: block;
+    }
+
     .audio_packages {
         background: var(--color-primary);
     }
@@ -30,7 +36,8 @@
     .fs-53 {
         font-size: 44px;
     }
-    .fs-26{
+
+    .fs-26 {
         font-size: 20px;
     }
 }

@@ -450,27 +450,6 @@
                               </div>
                            </div>
                         </div>
-                        <div class="keen-slider__slide">
-                           <div class="hosting-cont">
-                              <h3 class="hosting-title">BASIC</h3>
-                              <h3 class="hosting-title-price">€8,39/month</h3>
-                              <h3 class="hosting-sale-tag"><del>€11,99</del> -50%</h3>
-                              <p class="hosting-description">Total €201,26</p>
-                              <ul class="ht-bullet-li mb-1_5">
-                                 <li>400MB SSD</li>
-                                 <li>1 Site</li>
-                                 <li>1 Email</li>
-                                 <li>No MySQL</li>
-                              </ul>
-                              <select name="" id="">
-                                 <option value="" selected>Επιπλέον επιλογές</option>
-                                 <option value="">Επιπλέον επιλογές</option>
-                              </select>
-                              <div class="tc">
-                                 <a href="" class="bt-arrow bt-arrow-aqua">ΑΓΟΡΑΣΕ ΤΟ</a>
-                              </div>
-                           </div>
-                        </div>
 
                         <div class="keen-slider__slide">
                            <div class="hosting-cont">
@@ -1057,7 +1036,7 @@
 
       (function() {
 
-         //Keen slider for hosting carousal 
+         //Keen slider for Packages carousal 
          var slider = new KeenSlider(".pakages_slider", {
             breakpoints: {
                "(min-width: 600px)": {
@@ -1075,7 +1054,8 @@
                "(min-width: 1250px)": {
                   slides: {
                      perView: 4,
-                     spacing: 3
+                     spacing: 3,
+                     arrows: false,
                   },
                },
             },

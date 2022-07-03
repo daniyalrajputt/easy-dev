@@ -181,3 +181,7 @@
   filter: brightness(0) invert(1);
 }
 
+.audio_packages .ht-arrow-left,
+.audio_packages .ht-arrow-right{
+  display: none;
+}
