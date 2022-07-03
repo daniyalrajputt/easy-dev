@@ -170,7 +170,7 @@
 }
 
 .map-img {
-  margin-top: -5rem;
+  margin: -5rem 0 0;
 }
 
 .bg-primary.partner-section {
@@ -180,3 +180,4 @@
 .bg-primary.partner-section .partner-logos-ul a>img {
   filter: brightness(0) invert(1);
 }
+

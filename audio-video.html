@@ -8,6 +8,7 @@
    <!-- CSS -->
    <link rel="stylesheet" href="./css/keen-slider.min.css">
    <link rel="stylesheet" href="./css/styles.css">
+   <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -385,18 +386,16 @@
    <!-- Home section -->
    <section class="section audio-section clr-white">
       <div class="easy-cont">
-         <div class="row">
+         <div class="row jcc">
             <div class="col-md-12 col-lg-6 mt-5">
-               <h1 class="fs-53 mb-1">AUDIO & VIDEO <br> STREAMING</h1>
+               <h1 class="fs-53 mb-1">AUDIO & VIDEO STREAMING</h1>
                <h2 class="fs-32 mb-1">Multimedia Packets</h2>
                <p class="fs-20 mb-1 font-source-sans">
-                  Επίλεξε τώρα το δικό σου πακέτο multimedia, που σου
-                  <br> ταιριάζει, με γρήγορη ανταπόκριση, πολλές δυνατότητες,
-                  <br> μοναδικά χαρακτηριστικά…
+                  Επίλεξε τώρα το δικό σου πακέτο multimedia, που σου ταιριάζει, με γρήγορη ανταπόκριση, πολλές δυνατότητες, μοναδικά χαρακτηριστικά…
                </p>
             </div>
-            <div class="col-md-12 col-lg-6">
-               <figure class="m-0"><img src="img/illustration-audio-video.svg" alt="" class="img-fluid"></figure>
+            <div class="col-md-8 col-lg-6">
+               <figure class="m-0 tc"><img src="img/illustration-audio-video.svg" alt="" class="img-fluid"></figure>
             </div>
          </div>
       </div>
@@ -405,7 +404,7 @@
    <section class="audio_packages">
       <div class="easy-cont">
          <div class="row mb-1">
-            <div class="col-md-6">
+            <div class="col-6">
                <div class="switcher-wrap">
                   <label class="toggler toggler--is-active" id="filt-audio">Audio</label>
                   <div class="toggle-btn">
@@ -415,7 +414,7 @@
                   <label class="toggler" id="filt-video">Video</label>
                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-6">
                <div class="select-box">
                   <label for="years">Επίλεξε</label>
                   <select name="years" class="select-list" id="years">
@@ -1068,6 +1067,12 @@
                   },
                },
                "(min-width: 1000px)": {
+                  slides: {
+                     perView: 3,
+                     spacing: 3
+                  },
+               },
+               "(min-width: 1250px)": {
                   slides: {
                      perView: 4,
                      spacing: 3

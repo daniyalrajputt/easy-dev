@@ -1,0 +1,46 @@
+@media (max-width: 1249px) {
+    .audio_packages {
+        background: var(--color-primary);
+    }
+
+    .audio_packages .easy-cont {
+        margin-top: -1rem;
+    }
+
+    .map-img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .audio-section {
+        text-align: center;
+    }
+
+    .partner-logos-ul>li {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .audio-section .row .mt-5 {
+        margin-top: 0rem;
+    }
+
+    .fs-53 {
+        font-size: 44px;
+    }
+    .fs-26{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .partner-logos-ul>li {
+        width: 100%;
+    }
+
+    .audio_packages .hosting-cont {
+        padding: 20px 2rem 20px 3rem;
+    }
+}
