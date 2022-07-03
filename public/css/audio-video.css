@@ -182,9 +182,13 @@
 }
 
 .audio_packages .ht-arrow-left,
-.audio_packages .ht-arrow-right{
+.audio_packages .ht-arrow-right {
   display: none;
 }
-.month-1{
+
+.month-3,
+.month-6,
+.year-1,
+.year-2 {
   display: none;
 }
