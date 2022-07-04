@@ -63,6 +63,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   background-color: var(--color-white);
+  overflow-x: hidden;
 }
 
 a {
@@ -576,6 +577,10 @@ h6 {
   .header {
     position: static;
     background-color: var(--color-primary);
+  }
+
+  .mobile-menu {
+    display: block;
   }
 
   /* #main_menu {
