@@ -26,6 +26,10 @@
     .partner-logos-ul>li {
         width: 50%;
     }
+
+    .mobile-logo {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -40,6 +44,17 @@
     .fs-26 {
         font-size: 20px;
     }
+
+    .mobile-nav #main_menu .submenu-link {
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .mobile-nav #main_menu .submenu-group-links {
+        border-left: 0;
+        border-right: 0;
+    }
+
 }
 
 @media (max-width: 575.98px) {
@@ -49,5 +64,13 @@
 
     .audio_packages .hosting-cont {
         padding: 20px 2rem 20px 3rem;
+    }
+
+    .tablet-logo {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
     }
 }
