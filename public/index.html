@@ -555,7 +555,7 @@
               </div>
               <div class="row gx-0">
                 <div class="col-12">
-                  <a href="" class="submenu-btn clr-aqua"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
+                  <a href="" class="submenu-btn"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                 </div>
               </div>
             </div>
@@ -594,7 +594,7 @@
               </div>
               <div class="row gx-0">
                 <div class="col-12">
-                  <a href="" class="submenu-btn clr-aqua"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
+                  <a href="" class="submenu-btn"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                 </div>
               </div>
             </div>
@@ -634,7 +634,7 @@
               </div>
               <div class="row gx-0">
                 <div class="col-12">
-                  <a href="" class="submenu-btn clr-orange"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
+                  <a href="" class="> F.A.Q <span class=" icon-m icon-arrow-bubble"></span></a>
                 </div>
               </div>
             </div>
@@ -726,7 +726,7 @@
               </div>
               <div class="row gx-0">
                 <div class="col-12">
-                  <a href="" class="submenu-btn clr-blue"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
+                  <a href="" class="submenu-btn"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                 </div>
               </div>
             </div>
@@ -742,6 +742,7 @@
             </ul>
           </li>
         </ul>
+        <div class="login-sticky-btn"><a href="#"><img src="img/icon-header-user.svg" alt="">Login</a></div>
       </div>
     </div>
     <p class="fs-13 slogan hidden-md">ο 1ος καταχωρητής στην Ελλάδα</p>
@@ -1888,6 +1889,7 @@
     // mobile menu js
     (function() {
       $('.hamburger-menu').on('click', function() {
+        $('body').toggleClass('oh');
         $('.bar').toggleClass('animate');
         var mobileNav = $('.mobile-nav');
         mobileNav.toggleClass('hide show');
