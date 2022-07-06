@@ -72,5 +72,37 @@
 
     .mobile-logo {
         display: block;
+        max-width: 55px;
+    }
+
+    .mobile-logo-cont .fs-13 {
+        font-size: 11px;
+    }
+
+    .mobile-logo-cont {
+        padding: 0;
+    }
+
+    .mobile-menu .header-right-pannel>li {
+        height: 75px;
+    }
+
+    .mobile-nav {
+        top: 76px;
+        height: calc(100% - 75px);
+        min-height: calc(100% - 75px);
+    }
+
+    .select-box {
+        max-width: 175px;
+    }
+
+    .toggle-btn,
+    .toggler {
+        margin: 2px;
+    }
+
+    .custom-select-trigger {
+        padding: 0 85px 0 25px;
     }
 }

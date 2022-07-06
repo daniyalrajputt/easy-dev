@@ -773,7 +773,7 @@
    <!--Audio and Video pakages -->
    <section class="audio_packages">
       <div class="easy-cont">
-         <div class="row mb-1">
+         <div class="row aic mb-1">
             <div class="col-6">
                <div class="switcher-wrap">
                   <label class="toggler toggler--is-active" id="filt-audio">Audio</label>
@@ -1689,27 +1689,32 @@
       //    $(this).next('.sub-menu').slideToggle(slow);
       // });
 
-      $(document).ready(function() {
-         //FAQ toggle 
-         $('.mobile-nav .mobile-menu-list>li>a').click(function(e) {
-            e.preventDefault();
-            let $this = $(this);
-            if ($this.next().hasClass('show')) {
-               $this.next().removeClass('show');
-               $this.next().slideUp(350);
-               $this.removeClass('open');
-            } else {
-               $this.parent().parent().find('li .sub-menu').removeClass('show');
-               $this.parent().parent().find('li > a').removeClass('open');
-               $this.parent().parent().find('li .sub-menu').slideUp(350);
-               $this.next().toggleClass('show');
-               $this.next().slideToggle(350);
-               $this.addClass('open');
-            }
-            $('.mobile-nav').animate({
-               scrollTop: 0
-            }, 800);
-         });
+      // $(document).ready(function() {
+      //    //FAQ toggle 
+      //    $('.mobile-nav .mobile-menu-list>li>a').click(function(e) {
+      //       e.preventDefault();
+      //       let $this = $(this);
+      //       if ($this.next().hasClass('show')) {
+      //          $this.next().removeClass('show');
+      //          $this.next().slideUp(350);
+      //          $this.removeClass('open');
+      //       } else {
+      //          $this.parent().parent().find('li .sub-menu').removeClass('show');
+      //          $this.parent().parent().find('li > a').removeClass('open');
+      //          $this.parent().parent().find('li .sub-menu').slideUp(350);
+      //          $this.next().toggleClass('show');
+      //          $this.next().slideToggle(350);
+      //          $this.addClass('open');
+      //       }
+      //       $('.mobile-nav').animate({
+      //          scrollTop: 0
+      //       }, 800);
+      //    });
+      // });
+
+      $('.mobile-nav .mobile-menu-list>li>a').click(function() {
+         $(this).parent().children(".sub-menu").slideToggle(350)
+         // $('.sideBoxCollapse').slideToggle();
       });
    </script>
 </body>
