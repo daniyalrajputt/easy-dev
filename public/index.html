@@ -386,7 +386,8 @@
         <div class="col-6">
           <div class="mobile-logo-cont">
             <a class="logo self-align-center" href="">
-              <img src="./img/logo-square.svg" alt="Easy logo">
+              <img src="./img/logo-header.svg" class="tablet-logo" alt="Easy logo">
+              <img src="./img/logo-square.svg" class="mobile-logo" alt="Easy logo">
             </a>
             <p class="fs-13 m-0">ο 1ος καταχωρητής <br> στην Ελλάδα</p>
           </div>
@@ -395,7 +396,7 @@
           <ul class="header-right-pannel">
             <li>
               <a href="" class="cart-items">
-                <img src="./img/icon-header-cart.svg" height="36" width="36" alt="">
+                <img src="./img/icon-header-cart.svg" height="40" width="40" alt="">
                 <span class="cart-items-number">0</span>
               </a>
             </li>
@@ -1901,27 +1902,33 @@
     //    $(this).next('.sub-menu').slideToggle(slow);
     // });
 
-    $(document).ready(function() {
-      //FAQ toggle 
-      $('.mobile-nav .mobile-menu-list>li>a').click(function(e) {
-        e.preventDefault();
-        let $this = $(this);
-        if ($this.next().hasClass('show')) {
-          $this.next().removeClass('show');
-          $this.next().slideUp(350);
-          $this.removeClass('open');
-        } else {
-          $this.parent().parent().find('li .sub-menu').removeClass('show');
-          $this.parent().parent().find('li > a').removeClass('open');
-          $this.parent().parent().find('li .sub-menu').slideUp(350);
-          $this.next().toggleClass('show');
-          $this.next().slideToggle(350);
-          $this.addClass('open');
-        }
-        $('.mobile-nav').animate({
-          scrollTop: 0
-        }, 800);
-      });
+    // $(document).ready(function() {
+    //    //FAQ toggle 
+    //    $('.mobile-nav .mobile-menu-list>li>a').click(function(e) {
+    //       e.preventDefault();
+    //       let $this = $(this);
+    //       if ($this.next().hasClass('show')) {
+    //          $this.next().removeClass('show');
+    //          $this.next().slideUp(350);
+    //          $this.removeClass('open');
+    //       } else {
+    //          $this.parent().parent().find('li .sub-menu').removeClass('show');
+    //          $this.parent().parent().find('li > a').removeClass('open');
+    //          $this.parent().parent().find('li .sub-menu').slideUp(350);
+    //          $this.next().toggleClass('show');
+    //          $this.next().slideToggle(350);
+    //          $this.addClass('open');
+    //       }
+    //       $('.mobile-nav').animate({
+    //          scrollTop: 0
+    //       }, 800);
+    //    });
+    // });
+
+    $('.mobile-nav .mobile-menu-list>li>a').click(function() {
+      $(this).toggleClass('open')
+      $(this).parent().children(".sub-menu").slideToggle(350)
+      // $('.sideBoxCollapse').slideToggle();
     });
   </script>
 </body>

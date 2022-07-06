@@ -395,7 +395,7 @@
                <ul class="header-right-pannel">
                   <li>
                      <a href="" class="cart-items">
-                        <img src="./img/icon-header-cart.svg" height="36" width="36" alt="">
+                        <img src="./img/icon-header-cart.svg" height="40" width="40" alt="">
                         <span class="cart-items-number">0</span>
                      </a>
                   </li>
@@ -1713,6 +1713,7 @@
       // });
 
       $('.mobile-nav .mobile-menu-list>li>a').click(function() {
+         $(this).toggleClass('open')
          $(this).parent().children(".sub-menu").slideToggle(350)
          // $('.sideBoxCollapse').slideToggle();
       });
