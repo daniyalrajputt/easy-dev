@@ -88,9 +88,9 @@
     }
 
     .mobile-nav {
-        top: 76px;
-        height: calc(100% - 75px);
-        min-height: calc(100% - 75px);
+        top: 77px;
+        height: calc(100% - 77px);
+        min-height: calc(100% - 77px);
     }
 
     .select-box {
