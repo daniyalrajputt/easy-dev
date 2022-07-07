@@ -241,7 +241,7 @@
     content: none;
 }
 
-.mobile-nav #main_menu .sub-menu .row.menu-border {
+#main_menu .sub-menu .row.menu-border {
     margin-right: 0;
 }
 

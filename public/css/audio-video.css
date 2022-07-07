@@ -234,7 +234,7 @@
   min-width: 130px;
   padding: 0 104px 0 25px;
   font-weight: 100;
-  color: #6e7c83;
+  color: #343637;
   line-height: 50px;
   background-color: #ffffff;
   border-radius: 3px;
@@ -289,7 +289,6 @@
   left: 0%;
   right: 0;
   width: 100%;
-
   margin: 10px 0;
   border-radius: 5px;
   box-sizing: border-box;
@@ -325,7 +324,7 @@
   padding: 0 22px;
   font: 13px/1.5 "Source Sans Pro", monospace;
   font-weight: 600;
-  color: #b5b5b5;
+  color: #343637;
   line-height: 47px;
   cursor: pointer;
   transition: all 0.05s ease-in-out;
