@@ -1,0 +1,40 @@
+.domain-tr-sec {
+  background: linear-gradient(180deg, #ec008c -50%, #00009f 100%);
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  font-family: "Source Sans Pro", monospace;
+}
+.domain-tr-sec p {
+  letter-spacing: 0.6px;
+  font-size: 20px;
+}
+.banner-list {
+  list-style: none;
+  padding-left: 0;
+}
+.banner-list li {
+  padding-left: 1rem;
+  font-size: 20px;
+  line-height: 28px;
+  line-height: 2;
+  letter-spacing: 0.6px;
+  position: relative;
+}
+.banner-list li::before {
+  content: "";
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: 0;
+  top: 12px;
+  background: url(../img/icon-bullet.svg) left center/ auto no-repeat;
+}
+/* domain-section */
+.domain-section {
+  padding: 10rem 0 5rem;
+}
+
+.unique-services {
+  padding: 2rem 0 6rem;
+}

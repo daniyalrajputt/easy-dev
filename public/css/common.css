@@ -1,0 +1,88 @@
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.aie {
+  align-items: flex-end;
+}
+
+.ais {
+  align-items: flex-start;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcb {
+  justify-content: space-between;
+}
+
+.jce {
+  justify-content: flex-end;
+}
+
+.jcs {
+  justify-content: flex-start;
+}
+
+.fc {
+  flex-direction: column;
+}
+
+.frr {
+  flex-direction: row-reverse;
+}
+
+.fw {
+  flex-wrap: wrap;
+}
+
+.fnw {
+  flex-wrap: nowrap;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.ttc {
+  text-transform: capitalize;
+}
+
+.ttl {
+  text-transform: lowercase;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--color-primary);
+  letter-spacing: 0.54px;
+}
