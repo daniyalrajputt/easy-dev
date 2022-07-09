@@ -147,3 +147,9 @@
 .pagination li a.active {
   border: 2px solid var(--color-pink);
 }
+
+/* .lottie-json {
+  position: absolute;
+  right: 0;
+  bottom: 8rem;
+} */
