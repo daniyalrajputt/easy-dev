@@ -76,3 +76,33 @@ section.domain-buy {
 .table-section .table-responsive table tr td:last-child {
   text-align: right;
 }
+
+/* deg-wrap */
+.deg-wrap {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+  text-align: center;
+  margin-bottom: 1rem;
+  border: 2px solid var(--color-pink);
+}
+
+.deg-wrap h3 {
+  color: var(--color-pink);
+  margin-bottom: 0;
+}
+
+.sold-section {
+  padding: 2rem 0 6rem;
+  background: url(../img/line-element.svg) left center/100% 100% no-repeat fixed;
+}
+.sold-section .tools-cont{
+  background: var(--color-white);
+  border: 2px solid var(--color-pink);
+  padding: 40px;
+}
