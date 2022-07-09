@@ -11,6 +11,7 @@
 /* @import url("slicknav.css"); */
 @import url("audio-video.css");
 @import url("domain-transfer.css");
+@import url("domain-buy.css");
 
 :root {
   --color-white: #ffffff;

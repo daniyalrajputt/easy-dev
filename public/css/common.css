@@ -58,6 +58,14 @@
   margin: 0 auto;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
 .ttu {
   text-transform: uppercase;
 }
@@ -77,6 +85,31 @@
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+
+.banner-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.banner-list li {
+  padding-left: 1rem;
+  font-size: 20px;
+  line-height: 28px;
+  line-height: 2;
+  letter-spacing: 0.6px;
+  position: relative;
+}
+
+.banner-list li::before {
+  content: "";
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: 0;
+  top: 12px;
+  background: url(../img/icon-bullet.svg) left center/ auto no-repeat;
 }
 
 .paragraph {
