@@ -1,0 +1,49 @@
+section.domain-faq {
+  background: linear-gradient(180deg, #3B93D2 0%, #00009F 100%);
+  font-family: "Source Sans Pro", monospace;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.domain-faq figure {
+  position: absolute;
+  right: 3rem;
+  bottom: -1rem;
+}
+
+.faq-listing {
+  padding: 0 0 8rem;
+}
+
+.faq-listing ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.faq-listing ul li {
+  padding: 15px 0 10px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.faq-listing.faqs-section {
+  padding-top: 3rem;
+}
+
+.faq-listing .down-arrow {
+  transform: rotate(90deg);
+  display: block;
+  margin: 0 0 1.5rem;
+}
+.faq-listing.faqs-section ul.accordion-faq li{
+  margin: 0;
+  padding: 0;
+}
+.icons-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}

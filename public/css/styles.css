@@ -12,6 +12,8 @@
 @import url("audio-video.css");
 @import url("domain-transfer.css");
 @import url("domain-buy.css");
+@import url("domain-faq.css");
+@import url("domain-pricelist.css");
 
 :root {
   --color-white: #ffffff;

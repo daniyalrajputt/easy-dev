@@ -82,6 +82,13 @@
   overflow: hidden;
 }
 
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -120,6 +127,9 @@
   letter-spacing: 0.54px;
 }
 
+.unique-services {
+  padding: 3rem 0 6rem;
+}
 
 /* pagination */
 .pagination {
