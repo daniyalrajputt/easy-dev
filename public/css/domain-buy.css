@@ -1,3 +1,5 @@
+.domain-marketplace,
+.domain-sell,
 section.domain-buy {
   background: linear-gradient(180deg, #ec008c -40%, #00009f 100%);
   font-family: "Source Sans Pro", monospace;
@@ -101,8 +103,20 @@ section.domain-buy {
   padding: 2rem 0 6rem;
   background: url(../img/line-element.svg) left center/100% 100% no-repeat fixed;
 }
-.sold-section .tools-cont{
+
+.sold-section .tools-cont {
   background: var(--color-white);
   border: 2px solid var(--color-pink);
   padding: 40px;
+}
+.sold-section.marketplace-sec {
+  background: none;
+}
+.sold-section.marketplace-sec .group-wrap {
+  margin-top: -12rem;
+}
+
+.marketplace-sec .group-wrap .tools-cont {
+  flex: 1;
+  min-height: 485px;
 }

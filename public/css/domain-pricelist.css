@@ -1,3 +1,37 @@
 .domain-pricelist {
     background: linear-gradient(180deg, #EC008C -50%, #00009F 100%);
 }
+
+.price-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    color: var(--color-white);
+    transition: all, 0.3s ease-in-out;
+    border-radius: 0px 10px 10px 10px;
+    border: 2px solid var(--color-pink);
+    flex: 1;
+    height: 104px;
+}
+
+.price-wrap h4,
+.price-wrap p {
+    color: var(--color-white);
+    line-height: 1;
+    margin: 0;
+}
+
+.price-wrap:hover {
+    background-color: var(--color-white);
+}
+
+.price-wrap:hover h4 {
+    color: var(--color-pink);
+}
+
+.price-wrap:hover p {
+    color: var(--color-primary);
+}

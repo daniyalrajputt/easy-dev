@@ -9,10 +9,10 @@
 var msObject_ = {
     "DOMready": function () {
         // Init Slick Nav
-        $('#main_menu').slicknav({
-            'label': '',
-            //'prependTo': ''
-        });
+        // $('#main_menu').slicknav({
+        //     'label': '',
+        //     //'prependTo': ''
+        // });
     },
     "winLoad": function () {
 

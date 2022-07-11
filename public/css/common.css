@@ -163,3 +163,10 @@
   right: 0;
   bottom: 8rem;
 } */
+
+.group-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
