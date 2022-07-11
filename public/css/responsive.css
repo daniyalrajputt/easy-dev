@@ -16,6 +16,19 @@
     .map-img {
         margin-top: 0;
     }
+
+    .marketplace-sec .group-wrap .tools-cont {
+        min-height: 566px;
+    }
+
+    .domain-faq h1 br {
+        display: none;
+    }
+
+    .domain-faq .search-wrapper-home {
+        width: 100%;
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 992px) {
@@ -30,18 +43,71 @@
     .mobile-logo {
         display: none;
     }
+
+    .domain-section {
+        padding: 4rem 0;
+    }
+
+    .domain-buy figure {
+        margin: 0;
+    }
+
+    .sold-section.marketplace-sec .group-wrap {
+        margin: 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .marketplace-sec .group-wrap .tools-cont {
+        min-height: auto;
+        flex: none;
+        width: 100%;
+    }
+
+    br {
+        display: none;
+    }
+
+    .domain-faq figure {
+        position: static;
+    }
+
+    .domain-faq .search-wrapper-home {
+        margin-bottom: 3rem;
+    }
+
+    .faq-listing .tools-cont,
+    .unique-services .tools-cont {
+        margin-bottom: 1.25rem;
+    }
+
 }
 
 @media (max-width: 767px) {
-    .audio-section .row .mt-5 {
+
+    .domain-marketplace .row.mt-5,
+    .domain-sell .row.mt-5,
+    .section .row .mt-5 {
         margin-top: 0rem;
     }
 
     .fs-53 {
-        font-size: 44px;
+        font-size: 42px;
+    }
+
+    .fs-40 {
+        font-size: 30px;
+    }
+
+    .fs-28 {
+        font-size: 24px;
     }
 
     .fs-26 {
+        font-size: 22px;
+    }
+
+    .fs-23 {
         font-size: 20px;
     }
 
@@ -54,6 +120,19 @@
         border-left: 0;
         border-right: 0;
     }
+
+    .search-wrapper {
+        margin-bottom: 3rem;
+    }
+
+    .unique-services .tools-cont {
+        text-align: center;
+    }
+
+    .deg-wrap {
+        margin: 0 auto 1rem;
+    }
+
 
 }
 
@@ -105,6 +184,33 @@
     .custom-select-trigger {
         padding: 0 85px 0 25px;
     }
+
+    .domain-faq,
+    .domain-marketplace,
+    .domain-sell,
+    .domain-buy,
+    .unique-services,
+    .domain-tr-sec {
+        text-align: center;
+    }
+
+    .banner-list li {
+        text-align: left;
+    }
+
+    .table-select label {
+        font-size: 18px;
+    }
+
+    table .bt-arrow {
+        font-size: 15px;
+        padding: 0.75rem;
+    }
+
+    table .bt-arrow::after {
+        display: none;
+    }
+
 }
 
 
