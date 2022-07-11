@@ -35,21 +35,16 @@ section.domain-buy {
   border-radius: 5px;
 }
 
-.table-section .table-responsive {
-  width: 100%;
-  overflow-x: auto;
-}
-
-.table-section .table-responsive table {
+.table-section table {
   width: 100%;
   text-align: left;
 }
 
-.table-section .table-responsive table tr:first-child th {
+.table-section table tr:first-child th {
   border-bottom: 2px solid var(--color-primary);
 }
 
-.table-section .table-responsive table tr th {
+.table-section table tr th {
   width: 25%;
   font-size: 18px;
   font-weight: 500;
@@ -58,24 +53,24 @@ section.domain-buy {
   color: var(--color-primary);
 }
 
-.table-section .table-responsive table tr td {
+.table-section table tr td {
   width: 25%;
   vertical-align: middle;
   padding: 20px 0;
   border-bottom: 1px solid var(--color-primary);
 }
 
-.table-section .table-responsive table tr td p {
+.table-section table tr td p {
   margin: 0;
   font-weight: 500;
 }
 
-.table-section .table-responsive table tr th:first-child,
-.table-section .table-responsive table tr td:first-child {
+.table-section table tr th:first-child,
+.table-section table tr td:first-child {
   width: 50%;
 }
 
-.table-section .table-responsive table tr td:last-child {
+.table-section table tr td:last-child {
   text-align: right;
 }
 
@@ -109,9 +104,11 @@ section.domain-buy {
   border: 2px solid var(--color-pink);
   padding: 40px;
 }
+
 .sold-section.marketplace-sec {
   background: none;
 }
+
 .sold-section.marketplace-sec .group-wrap {
   margin-top: -12rem;
 }

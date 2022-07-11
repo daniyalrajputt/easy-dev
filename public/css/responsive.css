@@ -106,3 +106,11 @@
         padding: 0 85px 0 25px;
     }
 }
+
+
+@media (min-width: 992px) {
+    body.oh {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}

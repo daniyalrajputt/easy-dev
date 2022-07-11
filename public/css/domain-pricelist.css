@@ -35,3 +35,130 @@
 .price-wrap:hover p {
     color: var(--color-primary);
 }
+
+/* pricing-table-sec */
+.pricing-table-sec {
+    padding: 4rem 0;
+}
+
+.pricing-table-sec .search-wrapper-home {
+    width: 100%;
+    margin: 0;
+}
+
+.pricing-table-sec .form-input.form-input-lg {
+    min-height: 60px;
+    font-size: 20px;
+    border: 2px solid var(--color-primary);
+}
+
+.pricing-table-sec .input-wrapper .btn-arrow {
+    height: 60px;
+}
+
+
+.input-group {
+    display: flex;
+    width: 100%;
+    gap: 1px;
+}
+
+.input-group input[type="radio"] {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.input-group label {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    height: 45px;
+    flex: 1;
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+    font-size: 20px;
+    line-height: 1;
+    padding: 11px;
+    text-transform: uppercase;
+    border: 2px solid var(--color-pink);
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input-group input[type="radio"]:hover:not(:checked)+label,
+.input-group input[type="radio"]:checked+label {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+}
+
+.pricing-table-sec table {
+    width: 100%;
+    text-align: left;
+    font-family: "Source Code Pro", monospace;
+}
+
+.pricing-table-sec table thead th {
+    border-bottom: 3px solid var(--color-primary);
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    vertical-align: middle;
+}
+
+.pricing-table-sec table td {
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    vertical-align: middle;
+    border-bottom: 2px solid var(--color-primary);
+}
+.pricing-table-sec table td i{
+    color: var(--color-pink);
+}
+.pricing-table-sec table td p{
+    margin: 0;
+}
+/* price-listing */
+.price-listing {
+    padding: 4rem 0;
+}
+
+.pricelist-wrap {
+    margin-bottom: 1rem;
+}
+
+.pricelist {
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    gap: 2rem;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.pricelist>p {
+    color: var(--color-primary);
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0;
+    width: 75%;
+}
+
+.pricelist>span {
+    display: inline-block;
+    font-size: 18px;
+    color: var(--color-primary);
+    line-height: 25px;
+    font-weight: 600;
+    margin: 0;
+    width: 25%;
+}

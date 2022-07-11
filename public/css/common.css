@@ -89,6 +89,7 @@
 .gap-2 {
   gap: 2rem;
 }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -131,6 +132,13 @@
   padding: 3rem 0 6rem;
 }
 
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+
+
 /* pagination */
 .pagination {
   display: flex;
@@ -169,4 +177,3 @@
   align-items: center;
   gap: 0.25rem;
 }
-

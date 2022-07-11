@@ -27,4 +27,3 @@ $(window).scroll(debouncer(function () {
       $('body').removeClass('sticky-header');
     }
 }));
-

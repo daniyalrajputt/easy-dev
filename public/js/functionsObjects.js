@@ -8,11 +8,13 @@
 // Main Objects
 var msObject_ = {
     "DOMready": function () {
+        /*
         // Init Slick Nav
-        // $('#main_menu').slicknav({
-        //     'label': '',
-        //     //'prependTo': ''
-        // });
+        $('#main_menu').slicknav({
+            'label': '',
+            //'prependTo': ''
+        });
+        */
     },
     "winLoad": function () {
 
@@ -28,6 +30,13 @@ var msObject_ = {
                 }, 1500);
             }
             return false;
+        });
+        doc.on('click', '#mobileMenuJs', function () {
+            $('body').toggleClass('open-menu');
+        });
+        doc.on('click', '#main_menu_mobile>li.has-sub>a', function (e) {
+            $(this).parent().toggleClass('open').find('div.sub-menu').stop().slideToggle();
+            e.preventDefault();
         });
     }
 };
@@ -103,3 +112,18 @@ function debouncer(func, timeout) {
         update();
     };
 })(jQuery);
+
+//Offset calculation
+(function ($) {
+    jQuery.fn.weOffset = function () {
+        var de = document.documentElement;
+        $(this).css("display", "block");
+        var box = $(this).get(0).getBoundingClientRect();
+        var top = box.top + window.pageYOffset - de.clientTop;
+        var left = box.left + window.pageXOffset - de.clientLeft;
+        return {
+            top: top,
+            left: left
+        };
+    };
+}(jQuery));
