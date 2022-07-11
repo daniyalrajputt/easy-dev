@@ -133,3 +133,22 @@ $(".custom-option").on("click", function () {
         .find(".custom-select-trigger")
         .text($(this).text());
 });
+
+
+
+// Script for sticky Menu
+var lastScrollTop; // This Varibale will store the top position
+headerLogo = document.getElementById('header'); // Get The NavBar
+window.addEventListener('scroll', function () {
+    //on every scroll this funtion will be called
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    //This line will get the location on scroll
+    if (scrollTop > lastScrollTop) { //if it will be greater than the previous
+        headerLogo.style.top = '-150px';
+        //set the value to the negetive of height of navbar 
+    }
+    else {
+        headerLogo.style.top = '0';
+    }
+    lastScrollTop = scrollTop; //New Position Stored
+});

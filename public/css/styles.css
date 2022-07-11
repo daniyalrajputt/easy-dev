@@ -142,9 +142,9 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  transition: all 0.25s;
-  -webkit-animation-duration: 0.15s;
-  animation-duration: 0.15s;
+  transition: all, ease-in-out 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -153,8 +153,8 @@ h6 {
   .header>div {
     width: 1600px;
     max-width: 100%;
-    border-right: 1px solid var(--color-white);
-    border-left: 1px solid var(--color-white);
+    border-right: 2px solid var(--color-white);
+    border-left: 2px solid var(--color-white);
     margin: 0 auto;
   }
 
@@ -166,7 +166,7 @@ h6 {
 
   .sticky-header .header>div {
     margin: 0 auto;
-    border-bottom: 1px solid var(--color-white);
+    border-bottom: 2px solid var(--color-white);
   }
 
   .sticky-header .header {
