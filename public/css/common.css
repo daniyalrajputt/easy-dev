@@ -201,7 +201,6 @@ figure {
   animation-delay: .1s;
   transition: transform .3s;
   background: var(--color-white);
-  border-bottom: 5px solid var(--color-white);
 }
 .db-plan-box:hover,
 .hosting-cont:hover {
@@ -210,5 +209,4 @@ figure {
   -ms-transform: translateY(-2rem);
   -o-transform: translateY(-2rem);
   transform: translateY(-2rem);
-  border-color: var(--color-aqua);
 }
