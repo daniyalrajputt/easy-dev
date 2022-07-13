@@ -30,7 +30,7 @@ $(window).scroll(debouncer(function () {
 
 
 $(window).scroll(debouncer(function () {
-  if ($(window).scrollTop() > 300) {
+  if ($(window).scrollTop() > 325) {
     $('.domain-pricelist').addClass('sticky');
   } else {
     $('.domain-pricelist').removeClass('sticky');
