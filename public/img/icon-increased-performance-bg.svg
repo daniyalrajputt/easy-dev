@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="icon-increased-performance-bg" transform="translate(0 -43.765)">
+    <g id="bg" transform="translate(0 43.765)" fill="none" stroke="#00b2a9" stroke-width="2" opacity="0">
+      <circle cx="46" cy="46" r="46" stroke="none"/>
+      <circle cx="46" cy="46" r="45" fill="none"/>
+    </g>
+    <g id="icon-increased-performance" transform="translate(0 66.767)">
+      <path id="Path_20995" data-name="Path 20995" d="M52.667,32.456H44v-2h8.667a9.334,9.334,0,0,0,0-18.667,9.231,9.231,0,0,0-4.108.963l-.969.477-.4-1a9.328,9.328,0,0,0-13.9-4.271l-.988.67-.487-1.09a9.323,9.323,0,0,0-17.835,3.437L13.941,12.1l-1.115-.18a9.328,9.328,0,1,0-1.493,18.535H19v2H11.333a11.334,11.334,0,0,1,0-22.667c.242,0,.489.01.745.029a11.321,11.321,0,0,1,21.056-4.1,11.33,11.33,0,0,1,15.486,4.83,11.33,11.33,0,0,1,12.06,18.593A11.259,11.259,0,0,1,52.667,32.456Z" fill="#00b2a9"/>
+      <path id="Path_20996" data-name="Path 20996" d="M39.8,27.2H24.2a6.2,6.2,0,1,1,0-12.4H39.8a6.2,6.2,0,1,1,0,12.4ZM24.2,16.8a4.2,4.2,0,0,0,0,8.4H39.8a4.2,4.2,0,1,0,0-8.4Z" fill="#00b2a9"/>
+      <path id="Path_20997" data-name="Path 20997" d="M39.8,37.2H24.2A6.207,6.207,0,0,1,18,31h2a4.2,4.2,0,0,0,4.2,4.2H39.8A4.2,4.2,0,0,0,44,31h2A6.207,6.207,0,0,1,39.8,37.2Z" fill="#00b2a9"/>
+      <path id="Line_380" data-name="Line 380" d="M1,10H-1V0H1Z" transform="translate(45 21)" fill="#00b2a9"/>
+      <path id="Line_381" data-name="Line 381" d="M1,10H-1V0H1Z" transform="translate(19 21)" fill="#00b2a9"/>
+      <path id="Path_20998" data-name="Path 20998" d="M39.8,46.8H24.2A6.207,6.207,0,0,1,18,40.6h2a4.2,4.2,0,0,0,4.2,4.2H39.8A4.2,4.2,0,0,0,44,40.6h2A6.207,6.207,0,0,1,39.8,46.8Z" fill="#00b2a9"/>
+      <path id="Line_382" data-name="Line 382" d="M1,9.1H-1V0H1Z" transform="translate(45 31.5)" fill="#00b2a9"/>
+      <path id="Line_383" data-name="Line 383" d="M1,9.1H-1V0H1Z" transform="translate(19 31.5)" fill="#00b2a9"/>
+      <path id="Line_384" data-name="Line 384" d="M15,.5H0v-1H15Z" transform="translate(23.748 21.2)" fill="#00b2a9"/>
+      <path id="Line_385" data-name="Line 385" d="M1,.5H0v-1H1Z" transform="translate(40.748 21.2)" fill="#00b2a9"/>
+      <path id="Line_386" data-name="Line 386" d="M4,.5H0v-1H4Z" transform="translate(15 38.8)" fill="#00b2a9"/>
+      <path id="Line_387" data-name="Line 387" d="M8,.5H0v-1H8Z" transform="translate(15 39.8)" fill="#fff"/>
+      <path id="Line_388" data-name="Line 388" d="M1,.5H0v-1H1Z" transform="translate(13 38.8)" fill="#00b2a9"/>
+      <path id="Line_389" data-name="Line 389" d="M8.375.5H0v-1H8.375Z" transform="translate(10.625 21.2)" fill="#00b2a9"/>
+      <path id="Line_390" data-name="Line 390" d="M13.123.5H0v-1H13.123Z" transform="translate(10.625 22.2)" fill="#fff"/>
+      <path id="Line_391" data-name="Line 391" d="M1,.5H0v-1H1Z" transform="translate(8.625 21.2)" fill="#00b2a9"/>
+      <path id="Line_392" data-name="Line 392" d="M11.839.5H0v-1H11.839Z" transform="translate(3 31.8)" fill="#00b2a9"/>
+      <path id="Line_393" data-name="Line 393" d="M21,.5H0v-1H21Z" transform="translate(3 32.8)" fill="#fff"/>
+      <path id="Line_394" data-name="Line 394" d="M1,.5H0v-1H1Z" transform="translate(1 31.8)" fill="#00b2a9"/>
+    </g>
+  </g>
+</svg>

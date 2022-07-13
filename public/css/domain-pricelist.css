@@ -1,5 +1,54 @@
 .domain-pricelist {
     background: linear-gradient(180deg, #EC008C -50%, #00009F 100%);
+    padding-bottom: 20px !important;
+}
+
+.badges-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.badge-wrap {
+    position: relative;
+}
+
+.badge-wrap .hover-content {
+    position: absolute;
+    bottom: 110%;
+    width: 240px;
+    background: #F4FAFF;
+    padding: 20px;
+    border: 2px solid var(--color-primary);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: none;
+}
+
+.badge-wrap .hover-content::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%) rotate(45deg);
+    background: #F4FAFF;
+    height: 10px;
+    width: 10px;
+}
+
+.badge-wrap p.fs-18 {
+    color: var(--color-white);
+}
+
+.badge-wrap:hover p.fs-18 {
+    color: var(--color-blue);
+}
+
+.badge-wrap:hover .hover-content {
+    display: block;
 }
 
 .price-wrap {
@@ -122,12 +171,15 @@
     vertical-align: middle;
     border-bottom: 2px solid var(--color-primary);
 }
-.pricing-table-sec table td i{
+
+.pricing-table-sec table td i {
     color: var(--color-pink);
 }
-.pricing-table-sec table td p{
+
+.pricing-table-sec table td p {
     margin: 0;
 }
+
 /* price-listing */
 .price-listing {
     padding: 4rem 0;

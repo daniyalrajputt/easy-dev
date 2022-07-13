@@ -28,7 +28,7 @@
                         ο 1ος καταχωρητής <br /> στην Ελλάδα
                      </span>
                   </a>
-
+  
                   <div class="logo-hover">
                      <div class="logo-hover-inner">
                         <p>
@@ -192,8 +192,7 @@
                         </div>
                         <div class="row gx-0">
                            <div class="col-12">
-                              <a href="" class="submenu-btn clr-aqua"> F.A.Q <span
-                                    class="icon-m icon-arrow-bubble"></span></a>
+                              <a href="" class="submenu-btn clr-aqua"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                            </div>
                         </div>
                      </div>
@@ -232,8 +231,7 @@
                         </div>
                         <div class="row gx-0">
                            <div class="col-12">
-                              <a href="" class="submenu-btn clr-aqua"> F.A.Q <span
-                                    class="icon-m icon-arrow-bubble"></span></a>
+                              <a href="" class="submenu-btn clr-aqua"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                            </div>
                         </div>
                      </div>
@@ -273,8 +271,7 @@
                         </div>
                         <div class="row gx-0">
                            <div class="col-12">
-                              <a href="" class="submenu-btn clr-orange"> F.A.Q <span
-                                    class="icon-m icon-arrow-bubble"></span></a>
+                              <a href="" class="submenu-btn clr-orange"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                            </div>
                         </div>
                      </div>
@@ -366,8 +363,7 @@
                         </div>
                         <div class="row gx-0">
                            <div class="col-12">
-                              <a href="" class="submenu-btn clr-blue"> F.A.Q <span
-                                    class="icon-m icon-arrow-bubble"></span></a>
+                              <a href="" class="submenu-btn clr-blue"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                            </div>
                         </div>
                      </div>
@@ -385,8 +381,7 @@
                   <li>
                      <a href="" class="inline-flex item-center">
                         ΕΛ
-                        <svg class="ev-arrow d-inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                           xmlns="http://www.w3.org/2000/svg">
+                        <svg class="ev-arrow d-inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                         </svg>
                      </a>
@@ -414,7 +409,7 @@
                      <img src="./img/logo-header.svg" class="tablet-logo" alt="Easy logo">
                      <img src="./img/logo-square.svg" class="mobile-logo" alt="Easy logo">
                   </a>
-                  <p class="fs-13 m-0">ο 1ος καταχωρητής <br> στην Ελλάδα</p>
+                  <p class="fs-13 ttu m-0">All <br> About <br> Web</p>
                </div>
             </div>
             <div class="col-6">
@@ -425,6 +420,11 @@
                         <span class="cart-items-number">0</span>
                      </a>
                   </li>
+                  <li>
+                    <a href="">
+                      <img src="./img/icon-header-user.svg" height="36" width="36" alt="">
+                   </a>
+                 </li>
                   <li>
                      <div class="hamburger-menu">
                         <div class="bar"></div>
@@ -581,8 +581,7 @@
                      </div>
                      <div class="row gx-0">
                         <div class="col-12">
-                           <a href="" class="submenu-btn clr-aqua"> F.A.Q <span
-                                 class="icon-m icon-arrow-bubble"></span></a>
+                           <a href="" class="submenu-btn clr-aqua"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                         </div>
                      </div>
                   </div>
@@ -621,8 +620,7 @@
                      </div>
                      <div class="row gx-0">
                         <div class="col-12">
-                           <a href="" class="submenu-btn clr-aqua"> F.A.Q <span
-                                 class="icon-m icon-arrow-bubble"></span></a>
+                           <a href="" class="submenu-btn clr-aqua"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                         </div>
                      </div>
                   </div>
@@ -662,8 +660,7 @@
                      </div>
                      <div class="row gx-0">
                         <div class="col-12">
-                           <a href="" class="submenu-btn clr-orange"> F.A.Q <span
-                                 class="icon-m icon-arrow-bubble"></span></a>
+                           <a href="" class="submenu-btn clr-orange"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                         </div>
                      </div>
                   </div>
@@ -755,8 +752,7 @@
                      </div>
                      <div class="row gx-0">
                         <div class="col-12">
-                           <a href="" class="submenu-btn clr-blue"> F.A.Q <span
-                                 class="icon-m icon-arrow-bubble"></span></a>
+                           <a href="" class="submenu-btn clr-blue"> F.A.Q <span class="icon-m icon-arrow-bubble"></span></a>
                         </div>
                      </div>
                   </div>
@@ -778,7 +774,6 @@
       <p class="fs-13 slogan hidden-md">ο 1ος καταχωρητής στην Ελλάδα</p>
    </header>
    <!-- Top menu and header end -->
-
 
 
 
@@ -1474,25 +1469,6 @@
    <script src="./js/main.js" type="text/javascript"></script>
    <script src="./js/common.js" type="text/javascript"></script>
    <script>
-      // offer label hide
-      var isAlreadyRun = false;
-      $(window).scroll(function () {
-         $('.faq-section').each(function (i) {
-            var bottom_of_object = $(this).position().top + $(this).outerHeight() / 2;
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            if (bottom_of_window > (bottom_of_object + 20)) {
-               if (!isAlreadyRun) {
-                  $('.offer').hide();
-               }
-               isAlreadyRun = true;
-            } else {
-               isAlreadyRun = false;
-               $('.offer').show();
-            }
-         });
-      });
-
-
       (function () {
          //Keen slider for Packages carousal 
          var slider = new KeenSlider("#video_pakages", {

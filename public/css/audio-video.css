@@ -180,18 +180,6 @@
   display: inline-block;
 }
 
-.map-img {
-  margin: -5rem 0 0;
-}
-
-.bg-primary.partner-section {
-  border-bottom: 1px solid var(--color-gray);
-}
-
-.bg-primary.partner-section .partner-logos-ul a>img {
-  filter: brightness(0) invert(1);
-}
-
 .audio_packages .ht-arrow-left,
 .audio_packages .ht-arrow-right {
   display: none;

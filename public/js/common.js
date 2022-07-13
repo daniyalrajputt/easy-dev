@@ -1,3 +1,23 @@
+// offer label hide
+var isAlreadyRun = false;
+$(window).scroll(function () {
+    $('.faq-section').each(function (i) {
+        var bottom_of_object = $(this).position().top + $(this).outerHeight() / 2;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+        if (bottom_of_window > (bottom_of_object + 20)) {
+            if (!isAlreadyRun) {
+                $('.offer').hide();
+            }
+            isAlreadyRun = true;
+        } else {
+            isAlreadyRun = false;
+            $('.offer').show();
+        }
+    });
+});
+
+
+
 $(document).ready(function () {
     //FAQ toggle 
     $('.toggle').click(function (e) {

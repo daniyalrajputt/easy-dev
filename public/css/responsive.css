@@ -85,6 +85,7 @@
 
 @media (max-width: 767px) {
 
+    .domain-pricelist .row.mt-5,
     .domain-marketplace .row.mt-5,
     .domain-sell .row.mt-5,
     .section .row .mt-5 {
@@ -97,6 +98,10 @@
 
     .fs-40 {
         font-size: 30px;
+    }
+
+    .fs-32 {
+        font-size: 25px;
     }
 
     .fs-28 {
@@ -133,7 +138,17 @@
         margin: 0 auto 1rem;
     }
 
+    .lottie-json {
+        display: none;
+    }
 
+    .pannel-li li {
+        width: 49%;
+    }
+
+    .mobile-logo-cont br {
+        display: block;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -185,6 +200,7 @@
         padding: 0 85px 0 25px;
     }
 
+    .domain-pricelist,
     .domain-faq,
     .domain-marketplace,
     .domain-sell,
@@ -209,6 +225,18 @@
 
     table .bt-arrow::after {
         display: none;
+    }
+
+    .badges-wrapper {
+        gap: 1rem;
+    }
+
+    .input-group {
+        flex-wrap: wrap;
+    }
+
+    .domain-pricelist .fs-53 {
+        font-size: 40px;
     }
 
 }

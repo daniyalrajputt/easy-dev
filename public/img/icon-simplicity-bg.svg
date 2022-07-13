@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="icon-simplicity-bg" transform="translate(0 -44)">
+    <g id="bg" transform="translate(0 44)" fill="none" stroke="#00b2a9" stroke-width="2" opacity="0">
+      <circle cx="46" cy="46" r="46" stroke="none"/>
+      <circle cx="46" cy="46" r="45" fill="none"/>
+    </g>
+    <g id="icon-simplicity" transform="translate(0 66.6)">
+      <path id="Path_21006" data-name="Path 21006" d="M52.667,32.456H44v-2h8.667a9.334,9.334,0,0,0,0-18.667,9.231,9.231,0,0,0-4.108.963l-.969.477-.4-1a9.328,9.328,0,0,0-13.9-4.271l-.988.67-.487-1.09a9.323,9.323,0,0,0-17.835,3.437L13.941,12.1l-1.115-.18a9.328,9.328,0,1,0-1.493,18.535H19v2H11.333a11.334,11.334,0,0,1,0-22.667c.242,0,.489.01.745.029a11.321,11.321,0,0,1,21.056-4.1,11.33,11.33,0,0,1,15.486,4.83,11.33,11.33,0,0,1,12.06,18.593A11.259,11.259,0,0,1,52.667,32.456Z" fill="#00b2a9"/>
+      <path id="Path_21007" data-name="Path 21007" d="M39.8,27.2H24.2a6.2,6.2,0,1,1,0-12.4H39.8a6.2,6.2,0,1,1,0,12.4ZM24.2,16.8a4.2,4.2,0,0,0,0,8.4H39.8a4.2,4.2,0,1,0,0-8.4Z" fill="#00b2a9"/>
+      <path id="Path_21008" data-name="Path 21008" d="M39.8,37.2H24.2A6.207,6.207,0,0,1,18,31h2a4.2,4.2,0,0,0,4.2,4.2H39.8A4.2,4.2,0,0,0,44,31h2A6.207,6.207,0,0,1,39.8,37.2Z" fill="#00b2a9"/>
+      <path id="Line_401" data-name="Line 401" d="M1,10H-1V0H1Z" transform="translate(45 21)" fill="#00b2a9"/>
+      <path id="Line_402" data-name="Line 402" d="M1,10H-1V0H1Z" transform="translate(19 21)" fill="#00b2a9"/>
+      <path id="Path_21009" data-name="Path 21009" d="M39.8,46.8H24.2A6.207,6.207,0,0,1,18,40.6h2a4.2,4.2,0,0,0,4.2,4.2H39.8A4.2,4.2,0,0,0,44,40.6h2A6.207,6.207,0,0,1,39.8,46.8Z" fill="#00b2a9"/>
+      <path id="Line_403" data-name="Line 403" d="M1,9.1H-1V0H1Z" transform="translate(45 31.5)" fill="#00b2a9"/>
+      <path id="Line_404" data-name="Line 404" d="M1,9.1H-1V0H1Z" transform="translate(19 31.5)" fill="#00b2a9"/>
+      <path id="Line_405" data-name="Line 405" d="M15,.5H0v-1H15Z" transform="translate(23.748 21.2)" fill="#00b2a9"/>
+      <path id="Line_406" data-name="Line 406" d="M1,.5H0v-1H1Z" transform="translate(40.748 21.2)" fill="#00b2a9"/>
+    </g>
+  </g>
+</svg>
