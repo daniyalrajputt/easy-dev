@@ -17,13 +17,22 @@ $(window).on("load", function (e) {
 });
 
 /************** Window resize ***************/
-$(window).resize(debouncer(function () {}));
+$(window).resize(debouncer(function () { }));
 
 /************** Window resize ***************/
 $(window).scroll(debouncer(function () {
-    if ($(window).scrollTop()>50) {
-      $('body').addClass('sticky-header');
-    } else {
-      $('body').removeClass('sticky-header');
-    }
+  if ($(window).scrollTop() > 50) {
+    $('body').addClass('sticky-header');
+  } else {
+    $('body').removeClass('sticky-header');
+  }
+}));
+
+
+$(window).scroll(debouncer(function () {
+  if ($(window).scrollTop() > 300) {
+    $('.domain-pricelist').addClass('sticky');
+  } else {
+    $('.domain-pricelist').removeClass('sticky');
+  }
 }));

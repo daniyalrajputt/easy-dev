@@ -116,5 +116,5 @@ section.domain-buy {
 
 .marketplace-sec .group-wrap .tools-cont {
   flex: 1;
-  min-height: 485px;
+  /* min-height: 485px; */
 }

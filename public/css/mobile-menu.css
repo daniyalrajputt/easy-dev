@@ -97,8 +97,7 @@
 
 .mobile-nav.hide {
     opacity: 0;
-    top: 0;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
 }
 
 .mobile-nav {
@@ -117,7 +116,7 @@
       -moz-transition: opacity .5s ease;
       -webkit-transition: opacity .5s ease;
       transition:left .5s ease-in-out;*/
-    transform-origin: top;
+    transform-origin: right;
     overflow-y: auto;
     padding-bottom: 5rem;
 }
