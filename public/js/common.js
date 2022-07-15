@@ -172,3 +172,16 @@ window.addEventListener('scroll', function () {
     }
     lastScrollTop = scrollTop; //New Position Stored
 });
+
+
+
+$('.expand-search').click(function () {
+    $('.search-domain').slideDown(350);
+    $('.input-wrapper').addClass('search-open');
+    $('.search-close').css('display', "inline-flex");
+})
+$('.search-close').click(function () {
+    $('.search-domain').slideUp(350);
+    $('.input-wrapper').removeClass('search-open');
+    $(this).css('display', 'none');
+})
