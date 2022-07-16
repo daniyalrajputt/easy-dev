@@ -196,6 +196,17 @@
     .offer {
         display: none;
     }
+
+    .domain-slider-section .ht-arrow-left {
+        left: -50px;
+    }
+
+    .domain-slider-section .ht-arrow-right {
+        right: -50px;
+    }
+    .sold-section.domain-slider-section {
+        padding-bottom: 6rem;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -247,6 +258,9 @@
         padding: 0 85px 0 25px;
     }
 
+    .domain-slider-section,
+    .domain-serv,
+    .cta-section,
     .domain-pricelist,
     .domain-faq,
     .domain-marketplace,
@@ -284,6 +298,10 @@
 
     .domain-pricelist .fs-53 {
         font-size: 40px;
+    }
+
+    .cta-section .group-wrap {
+        justify-content: center;
     }
 
 }

@@ -141,8 +141,8 @@
   user-select: none;
 }
 
-.input-group input[type="radio"]:hover:not(:checked) + label,
-.input-group input[type="radio"]:checked + label {
+.input-group input[type="radio"]:hover:not(:checked)+label,
+.input-group input[type="radio"]:checked+label {
   background-color: var(--color-pink);
   color: var(--color-white);
 }
@@ -196,7 +196,7 @@
   border-bottom: 2px solid var(--color-primary);
 }
 
-.pricelist > p {
+.pricelist>p {
   color: var(--color-primary);
   font-weight: 600;
   line-height: 25px;
@@ -204,7 +204,7 @@
   width: 75%;
 }
 
-.pricelist > span {
+.pricelist>span {
   display: inline-block;
   font-size: 18px;
   color: var(--color-primary);
@@ -213,8 +213,109 @@
   margin: 0;
   width: 25%;
 }
+
 .domain-pricelist.sticky {
   position: sticky;
   top: -375px;
   z-index: 1111;
+}
+
+/* Domain Register */
+
+.flag-free {
+  margin-top: -8rem;
+}
+
+.domainpkgs-section {
+  padding: 0 0 6rem;
+}
+
+.domainpkgs-section .badges-wrapper {
+  justify-content: space-between;
+}
+
+.domainpkgs-section .badge-wrap {
+  text-align: center;
+}
+
+.domainpkgs-section .badge-wrap img {
+  margin-bottom: 5px;
+}
+
+.domainpkgs-section .badge-wrap p.fs-18 {
+  color: var(--color-primary);
+}
+
+.clr-blue {
+  color: var(--color-blue);
+}
+
+.clr-yellow {
+  color: var(--color-yellow);
+}
+
+.clr-orange {
+  color: var(--color-orange);
+}
+
+.cta-section {
+  padding: 50px 0;
+}
+
+/* .domain-serv */
+.domain-serv .tools-cont {
+  text-align: center;
+}
+
+.domain-serv .img-wrap {
+  position: relative;
+}
+
+.domain-serv .img-wrap .domain-sev-price {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sold-section.domain-slider-section {
+  padding-bottom: 10rem;
+}
+
+.domain-slider-section .price-wrap {
+  text-align: center;
+  border-radius: 0;
+  padding: 10px;
+  height: 140px;
+  gap: 0.25rem;
+  background: var(--color-white);
+}
+
+.domain-slider-section .price-wrap h4 {
+  color: var(--color-pink);
+}
+
+.domain-slider-section .price-wrap p {
+  color: var(--color-primary);
+  line-height: 1.5;
+}
+
+.domain-slider-section .price-wrap p span {
+  display: block;
+}
+
+.domain-slider-section .ht-arrow-left {
+  top: 50%;
+  margin: 0;
+  left: -100px;
+}
+
+.domain-slider-section .ht-arrow-right {
+  top: 50%;
+  margin: 0;
+  right: -100px;
 }

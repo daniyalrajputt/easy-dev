@@ -3,102 +3,104 @@ figure {
 }
 
 .df {
-  display: flex;
+  display: flex !important;
 }
 
 .aic {
-  align-items: center;
+  align-items: center !important;
 }
 
 .aie {
-  align-items: flex-end;
+  align-items: flex-end !important;
 }
 
 .ais {
-  align-items: flex-start;
+  align-items: flex-start !important;
 }
 
 .jcc {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .jcb {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 
 .jce {
-  justify-content: flex-end;
+  justify-content: flex-end !important;
 }
 
 .jcs {
-  justify-content: flex-start;
+  justify-content: flex-start !important;
 }
 
 .fc {
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
 .frr {
-  flex-direction: row-reverse;
+  flex-direction: row-reverse !important;
 }
 
 .fw {
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 
 .fnw {
-  flex-wrap: nowrap;
+  flex-wrap: nowrap !important;
 }
 
 .ml-auto {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 
 .mr-auto {
-  margin-right: auto;
+  margin-right: auto !important;
 }
 
 .mx-auto {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .mb-0 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .mt-0 {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .ttu {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 
 .ttc {
-  text-transform: capitalize;
+  text-transform: capitalize !important;
 }
 
 .ttl {
-  text-transform: lowercase;
+  text-transform: lowercase !important;
 }
 
 .oh {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .gap-1 {
-  gap: 1rem;
+  gap: 1rem !important;
 }
 
 .gap-2 {
-  gap: 2rem;
+  gap: 2rem !important;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
-
+.clr-pink{
+  color: var(--color-pink);
+}
 
 .map-img {
   margin: -5rem 0 0;
@@ -210,3 +212,4 @@ figure {
   -o-transform: translateY(-2rem);
   transform: translateY(-2rem);
 }
+
