@@ -194,7 +194,7 @@
     }
 
     .offer {
-        display: none;
+        display: none !important;
     }
 
     .domain-slider-section .ht-arrow-left {
@@ -204,8 +204,52 @@
     .domain-slider-section .ht-arrow-right {
         right: -50px;
     }
+
     .sold-section.domain-slider-section {
         padding-bottom: 6rem;
+    }
+
+    .search-domain {
+        padding: 10px 10px 0px;
+    }
+
+    .search-list {
+        padding: 5px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+    }
+
+    .price-cart {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .search-list .offer-tag {
+        right: auto;
+        top: auto;
+        position: relative;
+        width: 100%;
+        display: flex;
+        margin-bottom: 5px;
+    }
+    .search-list.bg-grey .offer-tag,
+    .search-list .offer-tag.bg-pink {
+        right: auto;
+        top: auto;
+    }
+
+    .form-input.form-input-lg {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .input-wrapper .btn-arrow {
+        right: 5px;
+    }
+
+    .input-wrapper .btn-arrow img {
+        width: 40px;
     }
 }
 

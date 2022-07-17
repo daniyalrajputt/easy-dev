@@ -1,6 +1,7 @@
 .domain-pricelist {
   background: linear-gradient(180deg, #ec008c -50%, #00009f 100%);
   padding-bottom: 20px !important;
+  transition: 0.5s ease-in-out;
 }
 
 .badges-wrapper {
@@ -217,7 +218,7 @@
 .domain-pricelist.sticky {
   position: sticky;
   top: -375px;
-  z-index: 1111;
+  z-index: 95;
 }
 
 /* Domain Register */

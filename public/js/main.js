@@ -29,10 +29,20 @@ $(window).scroll(debouncer(function () {
 }));
 
 
+
 $(window).scroll(debouncer(function () {
   if ($(window).scrollTop() > 325) {
     $('.domain-pricelist').addClass('sticky');
-  } else {
+  }
+  else {
     $('.domain-pricelist').removeClass('sticky');
   }
+
+  if ($(window).scrollTop() > 450) {
+    $('.offer').hide(350)
+  }
+  else {
+    $('.offer').show(350)
+  }
+
 }));
