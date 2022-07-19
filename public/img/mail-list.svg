@@ -1,0 +1,9 @@
+<svg id="mail-list" xmlns="http://www.w3.org/2000/svg" width="60" height="50" viewBox="0 0 60 50">
+  <rect id="Rectangle_4" data-name="Rectangle 4" width="60" height="50" rx="5" fill="#3b93d2"/>
+  <g id="Group_15371" data-name="Group 15371" transform="translate(17.277 16.278)">
+    <rect id="Rectangle_5678" data-name="Rectangle 5678" width="24.556" height="15.167" rx="2" transform="translate(0.723 0.722)" fill="none" stroke="#fff" stroke-width="2"/>
+    <path id="Path_24090" data-name="Path 24090" d="M22.7,6.544l-6.848,4.432a1.447,1.447,0,0,1-1.569,0L7.432,6.544" transform="translate(-2.064 -1.818)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_583" data-name="Line 583" x1="6.5" y1="6.5" transform="translate(18.056 8.667)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_584" data-name="Line 584" y1="6.5" x2="6.5" transform="translate(1.444 8.667)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>
