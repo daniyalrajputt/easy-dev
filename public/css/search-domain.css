@@ -38,6 +38,7 @@
 .search-list.bg-grey h3 {
   color: var(--color-gray);
 }
+
 .search-list.bg-blue h3 {
   color: var(--color-blue);
 }
@@ -88,6 +89,11 @@
   border-radius: 5px 0px 5px 5px;
   right: 100px;
   background-color: var(--color-aqua);
+}
+
+.search-list .offer-tag.center {
+  right: 50% !important;
+  transform: translateX(50%);
 }
 
 .offer-tag::before {
@@ -206,6 +212,7 @@
   border: 2px solid var(--color-primary);
   display: block;
   margin: 2px;
+  padding-top: 40px;
 }
 
 .search-list.bordered .price-cart {
@@ -248,10 +255,44 @@
   background-color: var(--color-pink);
   color: var(--color-white);
 }
-.button-label-wrapper .addBtn .line{
+
+.button-label-wrapper .addBtn .line {
   display: inline-block;
   height: 2px;
   background: #3B93D2;
   width: 30px;
   vertical-align: middle;
+}
+
+.search-list.bordered p del {
+  display: block;
+}
+
+
+/* expand-list */
+.expand-list {
+  padding: 30px;
+  background-color: rgba(59, 147, 210, 0.05);
+}
+
+.info-box {
+  flex: 1;
+  text-align: center;
+}
+
+.info-box:first-child {
+  flex: 1.5;
+}
+
+.info-inner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 0.25rem;
+  height: 185px;
+  margin-bottom: 10px;
+  border: 2px solid var(--color-primary);
 }
