@@ -308,3 +308,12 @@
   margin: 0;
   right: -100px;
 }
+
+.expand-list .pricelist > p {
+  width: 60%;
+  font-size: 18px;
+}
+.expand-list .pricelist > span {
+  width: 40%;
+  font-size: 18px;
+}

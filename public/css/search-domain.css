@@ -98,7 +98,7 @@
 
 .offer-tag::before {
   content: "";
-  width: 22px;
+  width: 10px;
   height: 8px;
   position: absolute;
   right: -10px;
