@@ -15,6 +15,7 @@
 @import url("domain-faq.css");
 @import url("domain-pricelist.css");
 @import url("search-domain.css");
+/* @import url("checkout.css"); */
 
 :root {
   --color-white: #ffffff;
