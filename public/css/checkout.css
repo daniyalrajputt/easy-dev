@@ -2,6 +2,10 @@
     background: var(--color-primary);
 }
 
+.checkout-section {
+    padding: 6rem 0;
+}
+
 /* Progressbar */
 .progressbar {
     position: relative;
@@ -97,4 +101,94 @@
         transform: scale(1, 1);
         opacity: 1;
     }
+}
+
+
+.basket-box {
+    border-top: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.basket-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.basket-list .df>img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.basket-list span {
+    font-weight: 200;
+}
+
+.basket-list .price-cart p span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.basket-list .price-cart button {
+    border: 0;
+    background: transparent;
+}
+
+.basket-box .ms-input {
+    width: auto !important;
+    min-width: 220px;
+}
+
+.basket-box .addBtn {
+    background: rgba(59, 147, 210, 0.1);
+}
+
+.basket-box .addBtn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75em;
+}
+
+.bill-box {
+    border: 2px solid var(--color-primary);
+    padding: 15px;
+}
+
+.bill-box .bill-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.bill-box .bill-list.total {
+    border-bottom: 0;
+}
+
+.bill-box p {
+    margin: 0;
+}
+
+.bill-box .bt-arrow {
+    margin: 10px 0;
+}
+
+.del-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    background: transparent;
+    color: var(--color-primary);
+}
+.del-cart img{
+    width: 15px;
 }
