@@ -42,6 +42,12 @@ $(document).ready(function () {
     $('#parallaxBG').parallax("40%", -0.1);
 });
 
+$('.checkoutBtn').on('click', function () {
+    $(this).parent().find('.expand-list').slideToggle(450);
+    // $('.expand-list').toggleClass('animate');
+    // var mobileNav = $('.mobile-nav');
+    // mobileNav.toggleClass('hide show');
+})
 
 // mobile menu js
 $('.hamburger-menu').on('click', function () {

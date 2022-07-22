@@ -1,194 +1,201 @@
 .head-checkout {
-    background: var(--color-primary);
+  background: var(--color-primary);
 }
 
 .checkout-section {
-    padding: 6rem 0;
+  padding: 6rem 0;
 }
 
 /* Progressbar */
 .progressbar {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    counter-reset: step;
-    margin: 2rem 0 4rem;
-    z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: step;
+  margin: 2rem 0 4rem;
+  z-index: 1;
 }
-
+.bg-progress {
+  width: 5rem;
+  height: 5rem;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
 .progressbar::before,
 .progress {
-    content: "";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 2px;
-    width: 100%;
-    background-color: #dcdcdc;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 100%;
+  background-color: #dcdcdc;
+  z-index: -1;
 }
 
 .progress {
-    background-color: var(--color-pink);
-    width: 0%;
-    transition: 1s;
+  background-color: var(--color-aqua);
+  width: 0%;
+  transition: 1s;
 }
 
 .progress-step {
-    width: 5rem;
-    height: 5rem;
-    font-size: 40px;
-    font-weight: 500;
-    color: var(--color-primary);
-    background-color: var(--color-white);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    opacity: 0.5;
-    z-index: 1;
+  width: 5rem;
+  height: 5rem;
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .progress-step::before {
-    counter-increment: step;
-    content: counter(step);
+  counter-increment: step;
+  content: counter(step);
 }
 
 .progress-step::after {
-    content: attr(data-title);
-    position: absolute;
-    top: calc(100% + 0.5rem);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    color: var(--color-white);
-    min-width: 250px;
+  content: attr(data-title);
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: var(--color-white);
+  min-width: 250px;
 }
 
 .progress-step-active {
-    opacity: 1;
+  opacity: 1;
 }
 
 .form-step {
-    display: none;
-    transform-origin: top;
-    animation: animate 1s;
+  display: none;
+  transform-origin: top;
+  animation: animate 1s;
 }
 
 .form-step-active {
-    display: block;
+  display: block;
 }
 
 @keyframes horizontal {
-    0% {
-        left: 0;
-    }
+  0% {
+    left: 0;
+  }
 
-    100% {
-        left: 100%;
-    }
+  100% {
+    left: 100%;
+  }
 }
 
 @keyframes animate {
-    from {
-        transform: scale(1, 0);
-        opacity: 0;
-    }
+  from {
+    transform: scale(1, 0);
+    opacity: 0;
+  }
 
-    to {
-        transform: scale(1, 1);
-        opacity: 1;
-    }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
 }
-
 
 .basket-box {
-    border-top: 1px solid var(--color-primary);
-    border-bottom: 1px solid var(--color-primary);
+  border-top: 1px solid var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
 }
-
 .basket-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.basket-list .df>img {
-    height: 25px;
-    margin-right: 10px;
+.basket-list .df > img {
+  height: 25px;
+  margin-right: 10px;
 }
 
 .basket-list span {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .basket-list .price-cart p span {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .basket-list .price-cart button {
-    border: 0;
-    background: transparent;
+  border: 0;
+  background: transparent;
 }
 
 .basket-box .ms-input {
-    width: auto !important;
-    min-width: 220px;
+  width: auto !important;
+  min-width: 220px;
 }
 
-.basket-box .addBtn {
-    background: rgba(59, 147, 210, 0.1);
+.basket-box .checkoutBtn {
+  background: rgba(59, 147, 210, 0.1);
 }
 
-.basket-box .addBtn a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0.75em;
+.basket-box .checkoutBtn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75em;
 }
 
 .bill-box {
-    border: 2px solid var(--color-primary);
-    padding: 15px;
+  border: 2px solid var(--color-primary);
+  padding: 15px;
 }
 
 .bill-box .bill-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .bill-box .bill-list.total {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 .bill-box p {
-    margin: 0;
+  margin: 0;
 }
 
 .bill-box .bt-arrow {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .del-cart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    margin: 10px auto;
-    font-size: 14px;
-    font-weight: 400;
-    border: 0;
-    background: transparent;
-    color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 10px auto;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  background: transparent;
+  color: var(--color-primary);
 }
-.del-cart img{
-    width: 15px;
+.del-cart img {
+  width: 15px;
 }
+
+/* .basket-box.show .expand-list {
+  display: block !important;
+} */
