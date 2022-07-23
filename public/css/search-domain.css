@@ -274,12 +274,16 @@
   padding: 0 30px 30px;
   background-color: rgba(59, 147, 210, 0.05);
 }
-
 .info-box {
   flex: 1;
   text-align: center;
+  position: relative;
 }
-
+.badge-min{
+  position: absolute;
+  top: -40px;
+  left: 10px;
+}
 .info-box:first-child {
   flex: 1.5;
 }

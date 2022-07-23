@@ -146,15 +146,16 @@
   min-width: 220px;
 }
 
-.basket-box .checkoutBtn {
+.checkoutBtn {
   background: rgba(59, 147, 210, 0.1);
 }
 
-.basket-box .checkoutBtn a {
+.checkoutBtn a {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  color: var(--color-primary);
   padding: 0.75em;
 }
 
@@ -263,4 +264,34 @@
   height: auto;
   width: auto;
   left: -5px;
+}
+
+/* billing-info */
+.checkout-section .toggle-btn {
+  border: 2px solid var(--color-primary);
+  background: var(--color-white);
+}
+
+.checkout-section .b.switch {
+  background: var(--color-blue);
+}
+
+.billing-info {}
+
+.billing-info .top-wrap {
+  margin-top: 1rem;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 5px;
+}
+.billing-info .badge-wrap p{
+  margin: 0;
+}
+.billing-row {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+.billing-row .delbtn {
+  border: 0;
+  background: transparent;
 }

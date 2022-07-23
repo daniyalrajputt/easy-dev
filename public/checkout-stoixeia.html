@@ -938,7 +938,7 @@
                             <div class="progress-step progress-step-active" data-title="Το καλάθι μου"></div>
                         </div>
                         <div class="bg-progress">
-                            <div class="progress-step" data-title="Στοιχεία χρέωσης"></div>
+                            <div class="progress-step progress-step-active" data-title="Στοιχεία χρέωσης"></div>
                         </div>
                         <div class="bg-progress">
                             <div class="progress-step" data-title="Επιβεβαίωση & πληρωμή"></div>
@@ -956,156 +956,303 @@
     <section class="checkout-section">
         <!-- Steps -->
         <div class="form-step form-step-active">
-            <!-- Step n0 1 Start -->
             <div class="easy-cont">
                 <div class="row">
-                    <div class="col-12">
-                        <h2 class="fs-40 font-code-sans clr-primary mb-1">ΤΟ ΚΑΛΑΘΙ ΜΟΥ</h2>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="basket-box">
-                            <div class="basket-list">
-                                <div class="df">
-                                    <img src="img/icon-domain.svg" alt="">
-                                    <h3 class="fs-26 clr-primary m-0">icdesign.me
-                                        <span class="d-block fs-18 font-source-sans">Κατοχύρωση</span>
-                                    </h3>
-                                </div>
-                                <div class="price-cart">
-                                    <p class="fs-26 font-code-sans m-0">€19,00<span>/για 2 έτη</span></p>
-                                    <button><img src="img/icon-metro-bin.svg" alt=""></button>
-                                </div>
+                    <div class="col-12 col-lg-9">
+                        <h2 class="fs-40 ttu clr-primary mb-2">ΣΤΟΙΧΕΙΑ ΧΡΕΩΣΗΣ</h2>
+                        <div class="switcher-wrap mb-1">
+                            <label class="toggler clr-primary toggler--is-active" id="checkout-1">Απόδειξη</label>
+                            <div class="toggle-btn">
+                                <input type="checkbox" id="switcher" class="input-check">
+                                <b class="b switch"></b>
                             </div>
-                            <div class="basket-list">
-                                <div class="df">
-                                    <img src="img/icon-check-round.svg" class="ml-2" alt="">
-                                    <h3 class="fs-26 clr-primary m-0">
-                                        <span class="d-block fs-18 font-source-sans">Έλεγχος εγκυρότητας</span>
-                                    </h3>
-                                </div>
-                                <div class="price-cart">
-                                    <p class="fs-26 font-code-sans m-0">€2,00<span> Κόστος setup</span></p>
-                                    <button><img src="img/icon-metro-bin.svg" alt=""></button>
-                                </div>
-                            </div>
-                            <div class="checkoutBtn">
-                                <a href="javascript:void(0)">ΠΕΡΙΣΣΟΤΕΡΕΣ ΥΠΗΡΕΣΙΕΣ ΓΙ ΑΥΤΟ ΤΟ DOMAIN <img
-                                        src="img/plus.svg" alt=""></a>
-                            </div>
+                            <label class="toggler clr-primary" id="checkout-2">Τιμολόγιο</label>
                         </div>
-                        <div class="basket-box">
-                            <div class="basket-list">
-                                <div class="df">
-                                    <img src="img/icon-domain.svg" alt="">
-                                    <h3 class="fs-26 clr-primary m-0">dimitriskanellopoulos.gr
-                                        <span class="d-block fs-18 font-source-sans">Κατοχύρωση</span>
-                                    </h3>
-                                </div>
-                                <div class="price-cart">
-                                    <p class="fs-26 font-code-sans m-0">€19,00<span>/για 2 έτη</span></p>
-                                    <button><img src="img/icon-metro-bin.svg" alt=""></button>
+                        <p class="fs-18 clr-primary font-source-sans">Η απόδειξη λιανικής εκδίδεται στα στοιχεία σου και
+                            αποτελεί επίσημο φορολογικό στοιχείο σαν αυτό της ταμειακής μηχανής. Εάν είσαι ελεύθερος
+                            επαγγελματίας, έχεις ατομική επιχείρηση ή εταιρία, τότε μπορείς να επιλέξεις “Τιμολόγιο”</p>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="billing-info">
+                            <div class="top-wrap">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <label class="fs-18 font-source-sans">ΕΠΑΦH</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="fs-18 font-source-sans">ΣΤΟΙΧΕIΑ</label>
+                                    </div>
+                                    <div class="col-2">
+                                        <label class="fs-18 font-source-sans">ΧΡEΩΣΗ</label>
+                                    </div>
+                                    <div class="col-2">
+                                        <label class="fs-18 font-source-sans">ΕΠΕΞΕΡΓΑΣIΑ</label>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Expand domain info -->
-                            <div class="expand-list mt-2" style="display: none;">
-                                <div class="group-wrap">
-                                    <div class="info-box">
-                                        <img src="img/badge-mintoxaseis.svg" class="badge-min" alt="">
-                                        <div class="info-inner">
-                                            <img src="./img/icon-server.svg" alt="">
-                                            <p class="fs-18 font-code-sans clr-primary m-0">Starter pack GR Linux
-                                                ISPmanager</p>
-                                            <p class="fs-18 font-source-sans mb-1">€84,44/2 έτη</p>
-                                            <a href="#" class="fs-40 clr-pink"><i
-                                                    class="icon-m icon-header-cart"></i></a>
-                                        </div>
-                                        <p class="fs-18 font-source-sans clr-primary">Πρόσθεσε στο καλάθι το
-                                            προτεινόμενο πακέτο hosting για 2 χρόνια ή επίλεξε οποιοδήποτε άλλο πακέτο
-                                            θέλεις για να κατοχυρώσεις το domain αυτό εντελώς δωρεάν</p>
-                                    </div>
-                                    <div class="info-box">
-                                        <div class="info-inner">
-                                            <img src="./img/icon-check-round.svg" alt="">
-                                            <p class="fs-18 font-code-sans clr-primary m-0">'EAcyxoc EyKup6Trcac</p>
-                                            <p class="fs-18 font-source-sans mb-1">EvEpyonoinari: €2,00 </p>
-                                            <a href="#" class="fs-40 clr-pink"><i
-                                                    class="icon-m icon-header-cart"></i></a>
+                            <div class="billing-row">
+                                <div class="row aic">
+                                    <div class="col-2">
+                                        <div class="badge-wrap df aic gap-1">
+                                            <div class="tc">
+                                                <img src="img/badge-newbie-current.svg" alt="">
+                                                <p class="fs-13 font-source-sans clr-blue">Newbie</p>
+                                            </div>
+                                            <p class="fs 18 clr-blue font-source sans">ADDRESS1</p>
                                         </div>
                                     </div>
-                                    <div class="info-box">
-                                        <div class="info-inner">
-                                            <img src="./img/icon-whois-small.svg" alt="">
-                                            <p class="fs-18 font-code-sans clr-primary m-0">Whois Extra Info</p>
-                                            <p class="fs-18 font-source-sans mb-1">€0,20/μήνα</p>
-                                            <a href="#" class="fs-40 clr-pink"><i
-                                                    class="icon-m icon-header-cart"></i></a>
+                                    <div class="col-6">
+                                        <p class="fs-16 font-source-sans m-0">Χριστίνα Ηλιοπούλου
+                                            (christina.ilio@gmail.com), +30.6972700725, 126235003 ΠΕΡΙΣΤΕΡΙΟΥ Β,
+                                            Υπηρεσίες Δημιουργίας Ιστοσελίδων & Γραφιστικής, Χατζηδάκη 1, Αθήνα 12133
+                                        </p>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-wrap">
+                                            <input type="radio" id="bill-1" name="billing" checked class="input-radio">
+                                            <label for="bill-1"></label>
                                         </div>
                                     </div>
-                                    <div class="info-box">
-                                        <div class="info-inner">
-                                            <img src="./img/icon-market.svg" alt="">
-                                            <p class="fs-18 font-code-sans clr-primary m-0">Marketplace</p>
-                                            <p class="fs-18 font-source-sans mb-1">€4,92/έτος</p>
-                                            <a href="#" class="fs-40 clr-pink"><i
-                                                    class="icon-m icon-header-cart"></i></a>
+                                    <div class="col-2">
+                                        <div class="group-wrap">
+                                            <button class="delbtn"><img src="img/icon-metro-bin.svg" alt=""></button>
+                                            <button class="delbtn"><img src="img/icon-metro-bin.svg" alt=""></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Expand domain info -->
+                            <div class="billing-row">
+                                <div class="row aic">
+                                    <div class="col-2">
+                                        <div class="badge-wrap df aic gap-1">
+                                            <p class="fs 18 clr-blue font-source sans">ADDRESS2</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="fs-16 font-source-sans m-0">Χριστίνα Ηλιοπούλου
+                                            (christina.ilio@gmail.com), Ιδιωτική υπάλληλος, Χατζηδάκη 1, Αθήνα 12133</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-wrap">
+                                            <input type="radio" id="bill-2" name="billing" class="input-radio">
+                                            <label for="bill-2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="group-wrap">
+                                            <button class="delbtn"><img src="img/icon-metro-bin.svg" alt=""></button>
+                                            <button class="delbtn"><img src="img/icon-metro-bin.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="checkoutBtn">
                                 <a href="javascript:void(0)">ΠΕΡΙΣΣΟΤΕΡΕΣ ΥΠΗΡΕΣΙΕΣ ΓΙ ΑΥΤΟ ΤΟ DOMAIN<img
                                         src="img/plus.svg" alt=""></a>
                             </div>
-                        </div>
-                        <div class="basket-box">
-                            <div class="basket-list">
-                                <div class="df">
-                                    <img src="img/icon-hosting.svg" alt="">
-                                    <h3 class="fs-26 clr-primary m-0">Basic Managed
-                                        <span class="d-block fs-18 font-source-sans">icdesign.gr</span>
-                                    </h3>
+                            <div class="form-wrapper" style="display: none;">
+                                <div class="row jcc mt-2">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΦΙΛΙΚΉ ΟΝΟΜΑΣΊΑ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΟΝΟΜΑΤΕΠΏΝΥΜΟ Ή ΕΠΩΝΥΜΊΑ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΔΙΕΎΘΥΝΣΗ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΠΌΛΗ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΠΕΡΙΟΧΉ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΧΏΡΑ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΤΑΧΥΔΡΟΜΙΚΌΣ ΚΏΔΙΚΑΣ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">EMAIL</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΤΗΛΈΦΩΝΟ</label>
+                                                    <input type="text" placeholder="+30" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΦΑΞ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">Α.Φ.Μ.</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="" class="ms-label">ΔΟΥ</label>
+                                                <select class="ms-input">
+                                                    <option>Επιλογή</option>
+                                                    <option>Επιλογή</option>
+                                                    <option>Επιλογή</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-wrapper">
+                                                    <label for="" class="ms-label">ΕΠΆΓΓΕΛΜΑ Ή ΔΡΑΣΤΗΡΙΌΤΗΤΑ</label>
+                                                    <input type="text" class="ms-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 tc">
+                                                <a href="" class="bt-arrow bt-arrow-blue">ΑΠΟΘΗΚΕΥΣΗ ΕΠΑΦΗΣ</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <select class="ms-input">
-                                    <option>2 χρόνια</option>
-                                    <option>2 χρόνια</option>
-                                    <option>2 χρόνια</option>
-                                </select>
-                                <div class="price-cart">
-                                    <p class="fs-26 font-code-sans m-0">€201,26<span>/για 2 έτη</span></p>
-                                    <button><img src="img/icon-metro-bin.svg" alt=""></button>
-                                </div>
-                            </div>
-                            <div class="checkoutBtn">
-                                <a href="javascript:void(0)">ΠΡOΣΘΕΣΕ ΔΥΝΑΤOΤΗΤΕΣ ΣΤΟ ΠΑΚEΤΟ ΣΟΥ<img src="img/plus.svg"
-                                        alt="">
-                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="bill-box">
-                            <div class="bill-list">
-                                <p class="fs-16 font-source-sans">Υποσύνολο</p>
-                                <p class="fs-18 font-code-sans">€288,26</p>
-                            </div>
-                            <div class="bill-list">
-                                <p class="fs-16 font-source-sans">ΦΠΑ 24%</p>
-                                <p class="fs-18 font-code-sans">€69,18</p>
-                            </div>
-                            <div class="bill-list total">
-                                <p class="fs-16 font-source-sans">Γενικό σύνολο</p>
-                                <p class="fs-23 font-code-sans">€357,44</p>
-                            </div>
-                            <div class="tc">
-                                <a href="" class="bt-arrow bt-arrow-blue">ΣΤΟ ΤΑΜΕΙΟ</a>
+
+                    <div class="col-12 mt-5">
+                        <h2 class="fs-40 clr-primary mb-1">ΣΤΟΙΧΕΙΑ ΚΑΤΟΧΥΡΩΣΗΣ DOMAIN</h2>
+                        <p class="fs-26 font-source-sans clr-primary mb-1">Εάν θέλεις μπορείς τώρα να αλλάξεις τώρα τα
+                            στοιχεία κατοχύρωσης των Domain που είναι προς αγορά.</p>
+
+                        <p class="fs-18 font-source-sans    ">Που θέλεις να γίνει η κατοχύρωση;</p>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="input-wrap">
+                            <input type="radio" id="register-1" name="registration" class="input-radio">
+                            <label for="register-1">Σε υπάρχουσα επαφή</label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="input-wrap">
+                            <input type="radio" id="register-2" name="registration" class="input-radio">
+                            <label for="register-2">Σε νέα επαφή</label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="input-wrap">
+                            <input type="radio" id="register-3" name="registration" class="input-radio">
+                            <label for="register-3">Είμαι προχωρημένος</label>
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <div class="row mt-2">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">Επιλογή επαφής</label>
+                                            <select class="ms-input">
+                                                <option>Address 1</option>
+                                                <option>Address 2</option>
+                                                <option>Address 3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΟΝΟΜΑΤΕΠΏΝΥΜΟ Ή ΕΠΩΝΥΜΊΑ</label>
+                                            <input type="text" class="ms-input" placeholder="Χριστίνα Ηλιοπούλου">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΔΙΕΎΘΥΝΣΗ</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΠΌΛΗ</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΠΕΡΙΟΧΉ</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΧΏΡΑ</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΤΑΧΥΔΡΟΜΙΚΌΣ ΚΏΔΙΚΑΣ</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">EMAIL</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΤΗΛΈΦΩΝΟ</label>
+                                            <input type="text" placeholder="+30" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">ΦΑΞ</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-wrapper">
+                                            <label for="" class="ms-label">Α.Φ.Μ.</label>
+                                            <input type="text" class="ms-input">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <button class="del-cart">Διαγραφή όλων <img src="img/icon-metro-bin.svg" alt=""></button>
+                    </div>
+                    <div class="col-12 tr mt-2">
+                        <a href="" class="bt-arrow bt-arrow-blue">ΣΥΝΕΧΕΙΑ ΣΕ ΠΛΗΡΩΜΗ</a>
                     </div>
                 </div>
             </div>
-            <!-- Step n0 1 END -->
         </div>
     </section>
 

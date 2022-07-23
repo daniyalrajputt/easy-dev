@@ -44,6 +44,7 @@ $(document).ready(function () {
 
 $('.checkoutBtn').on('click', function () {
     $(this).parent().find('.expand-list').slideToggle(450);
+    $(this).parent().find('.form-wrapper').slideToggle(450);
     // $('.expand-list').toggleClass('animate');
     // var mobileNav = $('.mobile-nav');
     // mobileNav.toggleClass('hide show');
@@ -57,32 +58,6 @@ $('.hamburger-menu').on('click', function () {
     mobileNav.toggleClass('hide show');
 })
 
-// $('.mobile-nav .mobile-menu-list>li>a').on('click', function() {
-//    $(this).next('.sub-menu').slideToggle(slow);
-// });
-
-// $(document).ready(function() {
-//    //FAQ toggle 
-//    $('.mobile-nav .mobile-menu-list>li>a').click(function(e) {
-//       e.preventDefault();
-//       let $this = $(this);
-//       if ($this.next().hasClass('show')) {
-//          $this.next().removeClass('show');
-//          $this.next().slideUp(350);
-//          $this.removeClass('open');
-//       } else {
-//          $this.parent().parent().find('li .sub-menu').removeClass('show');
-//          $this.parent().parent().find('li > a').removeClass('open');
-//          $this.parent().parent().find('li .sub-menu').slideUp(350);
-//          $this.next().toggleClass('show');
-//          $this.next().slideToggle(350);
-//          $this.addClass('open');
-//       }
-//       $('.mobile-nav').animate({
-//          scrollTop: 0
-//       }, 800);
-//    });
-// });
 
 $('.mobile-nav .mobile-menu-list>li>a').click(function () {
     $(this).toggleClass('open')
@@ -191,3 +166,6 @@ $('.search-close').click(function () {
     $('.input-wrapper').removeClass('search-open');
     $(this).css('display', 'none');
 })
+
+
+
