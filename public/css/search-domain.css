@@ -222,13 +222,21 @@
 }
 
 /* Filters wrapp */
+.filters-parent {
+  background-color: rgba(59, 147, 210, 0.1);
+  padding: 20px;
+
+}
+
+.button-wrapper {
+  display: none;
+}
+
 .button-label-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  padding: 20px;
-  background-color: rgba(59, 147, 210, 0.1);
-  overflow: hidden;
+  gap: 12px;
+  overflow-x: auto;
 }
 
 .button-label-wrapper input {
@@ -247,21 +255,41 @@
   transition: all 0.1s ease-in-out;
 }
 
-.button-label-wrapper label:hover {
-  cursor: pointer;
-}
-
+.button-label-wrapper label:hover,
 .button-label-wrapper input:checked+label {
+  cursor: pointer;
   background-color: var(--color-pink);
   color: var(--color-white);
 }
 
-.button-label-wrapper .addBtn .line {
+.filters-parent .addBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.filters-parent .addBtn .line {
   display: inline-block;
   height: 2px;
   background: #3B93D2;
   width: 30px;
   vertical-align: middle;
+  position: relative;
+}
+
+.filters-parent .addBtn .line:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 2px;
+  background: #3B93D2;
+  top: -13px;
+  left: 14px;
+}
+
+.filters-parent .addBtn.plusBtn .line:before {
+  display: none;
 }
 
 .search-list.bordered p del {
@@ -274,16 +302,19 @@
   padding: 0 30px 30px;
   background-color: rgba(59, 147, 210, 0.05);
 }
+
 .info-box {
   flex: 1;
   text-align: center;
   position: relative;
 }
-.badge-min{
+
+.badge-min {
   position: absolute;
   top: -40px;
   left: 10px;
 }
+
 .info-box:first-child {
   flex: 1.5;
 }

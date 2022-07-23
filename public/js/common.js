@@ -169,3 +169,8 @@ $('.search-close').click(function () {
 
 
 
+// Domain Filters List 
+$('.addBtn').on('click', function () {
+    $(this).parent().find('.button-wrapper').slideToggle(450);
+    $(this).toggleClass('plusBtn')
+})

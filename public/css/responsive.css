@@ -81,6 +81,15 @@
         margin-bottom: 1.25rem;
     }
 
+    .expand-list .group-wrap {
+        flex-wrap: wrap;
+    }
+
+    .info-box:first-child,
+    .info-box {
+        flex: auto;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -233,6 +242,8 @@
         display: flex;
         margin-bottom: 5px;
     }
+
+    .search-list.bg-blue .offer-tag,
     .search-list.bg-grey .offer-tag,
     .search-list .offer-tag.bg-pink {
         right: auto;
@@ -250,6 +261,21 @@
 
     .input-wrapper .btn-arrow img {
         width: 40px;
+    }
+
+    .button-label-wrapper {
+        overflow-x: auto;
+        height: 50px;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .button-label-wrapper label {
+        display: block;
+        flex: auto;
+        min-width: 150px;
+        text-align: center;
+        font-size: 13px;
     }
 }
 
