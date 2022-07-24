@@ -192,22 +192,6 @@
 }
 
 /* domain-available */
-.bt-primary {
-  border-top: 2px solid var(--color-primary);
-}
-
-.bb-primary {
-  border-bottom: 2px solid var(--color-primary);
-}
-
-.bt-pink {
-  border-top: 2px solid var(--color-pink);
-}
-
-.bb-pink {
-  border-bottom: 2px solid var(--color-pink);
-}
-
 .search-list.bordered {
   border: 2px solid var(--color-primary);
   display: block;

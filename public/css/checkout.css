@@ -4,6 +4,7 @@
 
 .checkout-section {
   padding: 6rem 0;
+  position: relative;
 }
 
 /* Progressbar */
@@ -159,6 +160,11 @@
   padding: 0.75em;
 }
 
+.cart-wrapper{
+  position: sticky;
+  transition: 0.3s ease-in-out;
+  top: 50px;
+}
 .bill-box {
   border: 2px solid var(--color-primary);
   padding: 15px;
@@ -217,7 +223,9 @@
 .checkout-section .ms-input {
   min-height: 50px;
 }
-
+.checkout-section textarea.ms-input{
+  min-height: 220px;
+}
 .hr-line {
   display: flex;
   align-items: center;
@@ -283,9 +291,11 @@
   border-bottom: 2px solid var(--color-primary);
   padding-bottom: 5px;
 }
-.billing-info .badge-wrap p{
+
+.billing-info .badge-wrap p {
   margin: 0;
 }
+
 .billing-row {
   padding: 15px 0;
   border-bottom: 1px solid var(--color-primary);
@@ -294,4 +304,71 @@
 .billing-row .delbtn {
   border: 0;
   background: transparent;
+}
+
+.payment-opt {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.payment-opt .input-wrap{
+  flex: 0 0 calc(25% - 5px);
+  margin-bottom: 5px;
+}
+.payment-opt.pay-online .input-wrap label{
+  height: 180px;
+}
+.payment-opt .input-wrap label{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--color-white);
+  color: var(--color-primary);
+  /* width: 220px; */
+  flex: 1;
+  height: 267px;
+  border: 2px solid var(--color-primary);
+  border-radius: 5px;
+  gap: 8px;
+  padding: 10px;
+  transition: all, 0.3s ease-in-out;
+}
+.payment-opt .input-radio:checked+label:before, .payment-opt .input-radio:not(:checked)+label:before{
+  right: 5px;
+  top: 5px;
+  background: transparent;
+  left: auto;
+
+}
+.payment-opt .input-radio:checked+label:after, .payment-opt .input-radio:not(:checked)+label:after{
+  left: auto;
+  right: 9px;
+  top: 9px;
+  background: var(--color-white);
+}
+.payment-opt .input-radio:checked+label {
+  background: var(--color-blue);
+  color: var(--color-white);
+  border-color: var(--color-blue);
+}
+.payment-opt .input-radio:checked+label img{
+  filter: brightness(0) invert(1);
+}
+.payment-opt .input-radio:checked+label:before {
+  border-color: var(--color-white);
+}
+.payment-opt .input-wrap h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: inherit;
+  margin: 10px 0 0;
+}
+.payment-opt .input-wrap p {
+  font-size: 14px;
+  color: inherit;
+  line-height: 1.5;
+  margin: 0;
 }

@@ -134,7 +134,24 @@ figure {
 .clr-orange {
   color: var(--color-orange) !important;
 }
+.bt-primary {
+  border-top: 2px solid var(--color-primary) !important;
+}
 
+.bb-primary {
+  border-bottom: 2px solid var(--color-primary) !important;
+}
+
+.bt-pink {
+  border-top: 2px solid var(--color-pink) !important;
+}
+
+.bb-pink {
+  border-bottom: 2px solid var(--color-pink) !important;
+}
+.no-border{
+  border: 0 !important;
+}
 .map-img {
   margin: -5rem 0 0;
 }

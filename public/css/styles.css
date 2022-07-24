@@ -2184,11 +2184,13 @@ textarea.ms-input {
 }
 
 .tc {
-  text-align: center;
+  text-align: center !important;
 }
-
+.tl{
+  text-align: left !important;
+}
 .tr {
-  text-align: right;
+  text-align: right !important;
 }
 
 .no-wrap {
@@ -2260,7 +2262,7 @@ textarea.ms-input {
 }
 
 .m-0 {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .mb-_5 {
@@ -2268,7 +2270,7 @@ textarea.ms-input {
 }
 
 .mb-1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 
 .mb-1_5 {
@@ -2320,7 +2322,7 @@ textarea.ms-input {
 }
 
 .pt-0 {
-  padding-top: 0;
+  padding-top: 0 !important;
 }
 
 .pt-2 {
@@ -2328,11 +2330,11 @@ textarea.ms-input {
 }
 
 .pl-0 {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 
 .pr-0 {
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 
 .pr-1 {
