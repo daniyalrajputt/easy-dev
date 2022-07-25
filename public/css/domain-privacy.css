@@ -32,3 +32,47 @@
     line-height: 1.5;
     letter-spacing: 0.54px;
 }
+
+
+/* whois-section */
+.whois-section {
+    /* padding: 4rem 0; */
+}
+
+.whois-list+.whois-list {
+    border-top: 2px solid var(--color-pink);
+}
+
+.whois-list {
+    padding: 20px 0;
+}
+
+.whois-list h2 {
+    font-weight: 400;
+}
+
+.whois-list p {
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.54px;
+}
+
+.whois-section .bt-arrow {
+    margin-top: 20px;
+}
+
+.whois-search {
+    padding: 2.5rem 0;
+}
+
+
+/* domain-backorder */
+.domain-backorder {
+    background: linear-gradient(180deg, #ec008c -40%, #00009f 100%);
+    font-family: "Source Sans Pro", monospace;
+    padding-bottom: 0 !important;
+}
+
+.domain-backorder figure img {
+    margin: 0 -5rem 0 0;
+}
