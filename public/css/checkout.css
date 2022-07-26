@@ -312,7 +312,7 @@
   flex-wrap: wrap;
 }
 .payment-opt .input-wrap{
-  flex: 0 0 calc(25% - 5px);
+  flex: 1;
   margin-bottom: 5px;
 }
 .payment-opt.pay-online .input-wrap label{
