@@ -76,3 +76,39 @@
 .domain-backorder figure img {
     margin: 0 -5rem 0 0;
 }
+
+/* domain-metafora */
+.domain-metafora {
+    background: linear-gradient(180deg, #ec008c -40%, #00009f 100%);
+    font-family: "Source Sans Pro", monospace;
+}
+
+.domain-metafora .ms-input {
+    padding-left: 1.5rem;
+}
+
+.domain-metafora .ms-input::placeholder {
+    color: var(--color-blue);
+}
+
+.domain-metafora .input-wrap {
+    margin: 0 0 0 10px;
+}
+
+.domain-metafora .input-radio:checked+label:before,
+.domain-metafora .input-radio:not(:checked)+label:before {
+    border-color: var(--color-white);
+    background: transparent;
+}
+
+.domain-metafora .input-radio:checked+label:after,
+.domain-metafora .input-radio:not(:checked)+label:after {
+    background: var(--color-white);
+}
+
+.delrow-btn {
+    color: var(--color-white);
+    font-size: 1.875rem;
+    display: inline-block;
+    margin-left: 4.325rem;
+}

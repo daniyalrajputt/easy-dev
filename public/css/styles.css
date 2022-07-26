@@ -2149,39 +2149,39 @@ textarea.ms-input {
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 .bg-primary {
-  background-color: #00009f;
+  background-color: #00009f !important;
 }
 
 .bg-pink {
-  background-color: #d92a92;
+  background-color: #d92a92 !important;
 }
 
 .clr-primary {
-  color: #00009f;
+  color: #00009f !important;
 }
 
 .clr-secondary {
-  color: #5492ce;
+  color: #5492ce !important;
 }
 
 .clr-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .clr-gray {
-  color: #8e8e8e;
+  color: #8e8e8e !important;
 }
 
 .clr-orang {
-  color: #f44044;
+  color: #f44044 !important;
 }
 
 .clr-aqua {
-  color: #00b2a9;
+  color: #00b2a9 !important;
 }
 
 .tc {
