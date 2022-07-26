@@ -924,18 +924,19 @@
          <div class="row jcc">
             <div class="col-md-12 col-lg-10 mt-5">
                <h1 class="fs-53 mb-0">ΜΕΤΑΦΟΡΑ DOMAIN</h1>
-               <div class="group-wrap aic">
-                  <input type="text" class="ms-input" placeholder="icdesign.gr">
-                  <input type="text" class="ms-input" placeholder="f2fwfg">
-
-                  <div class="input-wrap">
-                     <input type="checkbox" id=checkbox-1 name="metafora-list" class="input-radio">
-                     <label for="checkbox-1" class="clr-white">Εμφάνιση</label>
+               <div class="metafora-list">
+                  <div class="group-wrap aic">
+                     <input type="text" class="ms-input" placeholder="icdesign.gr">
+                     <input type="text" class="ms-input" placeholder="f2fwfg">
+                     <div class="input-wrap">
+                        <input type="checkbox" id=checkbox-1 name="metafora-list" class="input-radio">
+                        <label for="checkbox-1" class="clr-white">Εμφάνιση</label>
+                     </div>
+                     <a href="javascript:void(0)" class="delrow-btn"><i class="icon-m icon-x"></i></a>
                   </div>
-                  <a href="javascript:void(0)" class="delrow-btn"><i class="icon-m icon-x"></i></a>
                </div>
-               
-               <a href="" class="bt-arrow bt-arrow-pink mt-2">ΜΕΤΑΦΟΡΑ</a>
+
+               <a href="" class="bt-arrow bt-arrow-pink mt-2 addMeta">ΜΕΤΑΦΟΡΑ</a>
             </div>
          </div>
       </div>
@@ -1756,6 +1757,12 @@
       });
       $(document).on('click', '.ht-arrow-right', function () {
          slider.next();
+      });
+   </script>
+
+   <script>
+      $('.addMeta').on('click', function () {
+         $('.metafora-list .group-wrap').append($('.metafora-list'));
       });
    </script>
 </body>
