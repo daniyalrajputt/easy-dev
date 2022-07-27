@@ -112,3 +112,70 @@
     display: inline-block;
     margin-left: 4.325rem;
 }
+
+.add-row-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    color: var(--color-white);
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.add-row-btn .line {
+    display: inline-block;
+    height: 2px;
+    background: var(--color-pink);
+    width: 25px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.add-row-btn .line:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 2px;
+    background: var(--color-pink);
+    top: -11px;
+    left: 12px;
+}
+
+p.w80 {
+    width: 80%;
+}
+
+.metabox {
+    background: var(--color-pink);
+    border-radius: 10px;
+    width: 330px;
+    height: 155px;
+    margin-left: auto;
+    padding: 30px 15px 20px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.metabox .img-wrap {
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    top: -3rem;
+    background: var(--color-primary);
+    border-radius: 50%;
+}
+
+.metabox .img-wrap .domain-sev-price {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
