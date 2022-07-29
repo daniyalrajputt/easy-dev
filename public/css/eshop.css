@@ -1,0 +1,129 @@
+.eshop-banner {
+    background: linear-gradient(180deg, #FF4333 0%, #E23B3F 8%, #00009F 100%);
+    padding-bottom: 0 !important;
+}
+
+.eshop-tabs {
+    background: var(--color-orange);
+    padding: 0;
+}
+
+.tabs-list {
+    display: flex;
+    /* align-items: center; */
+    gap: 1rem;
+    text-align: center;
+}
+
+.tabs-list .tab-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    padding: 15px 0 10px;
+    border-bottom: 5px solid transparent;
+}
+
+.tabs-list .tab-icon span {
+    color: var(--color-white);
+}
+
+.tabs-list .tab-icon.active {
+    border-color: var(--color-white);
+}
+
+.tabs-content h3 {
+    font-weight: 400;
+}
+
+.tabs-content p {
+    font-weight: 400;
+}
+
+.tabs-content .row+.row {
+    margin-top: 5rem;
+}
+
+.border-wrap {
+    padding: 30px;
+    border: 2px solid var(--color-orange);
+}
+
+.eshop-border p {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.border-wrap ul {
+    margin: 1rem 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.border-wrap ul li {
+    position: relative;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--color-primary);
+}
+
+.border-wrap ul li::before {
+    content: "\e909";
+    font-family: 'icomoon';
+    margin-right: 10px;
+    color: var(--color-orange);
+}
+
+/* product card */
+.eshop-products {
+    padding: 0 0 8rem;
+}
+
+.eshop-products .group-wrap {
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+.pro-card {
+    flex: 0 0 33%;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid var(--color-primary);
+}
+
+.pro-card .imgWrap {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.pro-card .imgWrap img {
+    width: 100%;
+}
+
+.pro-card .imgWrap .hover-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    transition: 0.3s ease-in-out;
+    transform: scale(0);
+    background: rgb(0 0 159/30%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pro-card:hover .imgWrap .hover-content {
+    transform: scale(1);
+}
+.specialized-sol{
+    background: var(--color-orange);
+    border-radius: 0px 10px 10px 10px;
+    padding: 40px;
+}

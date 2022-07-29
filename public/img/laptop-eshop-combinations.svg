@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="552.517" height="312.465" viewBox="0 0 552.517 312.465">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="inner" width="424.504" height="261.66" transform="translate(67.258 19.74)" fill="#efefef" stroke="#00009f" stroke-linejoin="round" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="laptop-eshop-combinations" transform="translate(-0.242 -0.24)">
+    <g id="bottom">
+      <rect id="Rectangle_5727" data-name="Rectangle 5727" width="550.517" height="6.235" transform="translate(1.242 298.549)" fill="none" stroke="#00009f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_24366" data-name="Path 24366" d="M269.923,240.584a5.626,5.626,0,0,1-1.872,4.16,6.644,6.644,0,0,1-4.515,1.726H197.849a6.151,6.151,0,0,1-6.382-5.886h-.312v.438a6.152,6.152,0,0,0,6.387,5.881h66.3a6.149,6.149,0,0,0,6.389-5.881v-.438Z" transform="translate(46.156 58.09)" fill="none" stroke="#00009f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_24368" data-name="Path 24368" d="M2.161,245.562a.172.172,0,0,0-.042.338,246.159,246.159,0,0,0,58.507,7.013H492.108a246.141,246.141,0,0,0,58.506-7.013.172.172,0,0,0-.041-.338H2.161Z" transform="translate(0.48 59.293)" fill="none" stroke="#00009f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="screen">
+      <path id="outer" d="M491.119,298.311H44.475V24.636A23.636,23.636,0,0,1,68.111,1H467.483a23.636,23.636,0,0,1,23.636,23.636Z" transform="translate(10.738 0.24)" fill="#fff" stroke="#00009f" stroke-width="2"/>
+      <rect id="inner-2" data-name="inner" width="424.504" height="262.657" transform="translate(66.83 20.109)" fill="#efefef" stroke="#00009f" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="camera" cx="2.5" cy="2.5" r="2.5" transform="translate(274 9)" fill="#00009f"/>
+    </g>
+    <g id="Mask_Group_25" data-name="Mask Group 25" clip-path="url(#clip-path)">
+      <rect id="Rectangle_5730" data-name="Rectangle 5730" width="265" height="168" transform="translate(146.76 67.24)" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_77" data-name="Ellipse 77" cx="15.5" cy="15.5" r="15.5" transform="translate(396.758 95.24)" fill="#d92a92"/>
+    <circle id="Ellipse_78" data-name="Ellipse 78" cx="15.5" cy="15.5" r="15.5" transform="translate(396.758 135.24)" fill="#00009f"/>
+    <circle id="Ellipse_79" data-name="Ellipse 79" cx="15.5" cy="15.5" r="15.5" transform="translate(396.758 175.24)" fill="#f44044"/>
+  </g>
+</svg>

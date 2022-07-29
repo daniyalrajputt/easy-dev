@@ -16,7 +16,7 @@
 @import url("domain-pricelist.css");
 @import url("search-domain.css");
 @import url("domain-privacy.css");
-/* @import url("checkout.css"); */
+@import url("eshop.css");
 
 :root {
   --color-white: #ffffff;
